@@ -463,6 +463,29 @@ html[data-lao-font] .md-typeset h3 {
   color: #111;
 }
 
+/* ---- Small inline icons (contact info, list items) ---- */
+.lc-inline-icon {
+  display: inline-block;
+  width: 1.15em;
+  height: 1.15em;
+  vertical-align: -0.22em;
+  margin-right: 0.35rem;
+  color: var(--lc-brand);
+}
+
+[data-md-color-scheme="slate"] .lc-inline-icon {
+  color: var(--lc-gold);
+}
+
+.lc-contact-row,
+.lc-list-icon-row {
+  margin-bottom: 1.1rem;
+}
+
+.lc-list-icon-row .lc-inline-icon {
+  vertical-align: -0.3em;
+}
+
 /* ---- Official Adventist symbol slot ----
    Never redrawn/recolored/modified -- the badge (white mark on denim blue)
    is self-contained and reads correctly on any background, so it's used
