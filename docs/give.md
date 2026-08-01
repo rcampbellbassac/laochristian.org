@@ -1,6 +1,7 @@
+---
+hero_image: give
+---
 # Give
-
-![A woven offering basket beside a terraced hillside](assets/img/give-light.webp)
 
 LaoChristian.org is a ministry of the Lao Holland Seventh-day Adventist
 Church, supported entirely by the generosity of people who believe in making

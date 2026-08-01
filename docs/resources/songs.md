@@ -1,6 +1,7 @@
+---
+hero_image: worship
+---
 # Sieng Khaen Lao
-
-![Khaen reeds rising beside a terraced hillside](../assets/img/worship-light.webp)
 
 ສຽງແຄນລາວ — the sound of the Lao khaen, carrying hymns and gospel songs to Lao
 Christian communities around the world.

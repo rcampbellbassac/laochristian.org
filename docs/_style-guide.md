@@ -30,6 +30,22 @@ traditional ຣ (R) in sacred terms rather than the modern government-simplified
 ຈະບໍ່ພິນາດ ແຕ່ມີຊີວິດນິລັນດອນ. ຂໍ້ຄວາມນີ້ໃຊ້ສະລະ, ພະຍັນຊະນະ, ວັນນະຍຸດ ແລະຕົວເລກ (໑໒໓) ທີ່
 ຫຼາກຫຼາຍ ເພື່ອທົດສອບການສະແດງຜົນຂອງແຕ່ລະຟອນ.
 
+## Page hero images
+
+Every page gets a full-width hero banner, like the homepage. Set one line
+of front matter at the top of the page — no HTML needed:
+
+```yaml
+---
+hero_image: give
+---
+```
+
+This picks up `docs/assets/img/give-light.webp` / `give-dark.webp`
+automatically (see `overrides/main.html`'s `tabs` block), swapped by color
+scheme. Both files must exist. Don't set this on `index.md` — the homepage
+builds its own hero in `overrides/home.html`.
+
 ## Color swatches
 
 <div class="lc-card" style="background:var(--lc-paper); color:var(--lc-ink);">rice-paper #F6F1E7 / ink #173B38</div>
@@ -51,7 +67,7 @@ Card component — 15px radius, 1px border, minimal shadow, lifts slightly on ho
 </div>
 
 <div class="lc-adventist-slot" style="justify-content:flex-start; max-width:22rem; margin-top:1rem;">
-<img src="assets/img/adventist-symbol.svg" alt="Seventh-day Adventist Church">
+<img src="../assets/img/adventist-symbol.svg" alt="Seventh-day Adventist Church">
 <span style="margin-left:0.6rem;">Official symbol, used unmodified per NAD brand guidelines</span>
 </div>
 

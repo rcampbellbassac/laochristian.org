@@ -1,6 +1,7 @@
+---
+hero_image: hero
+---
 # The Lao Bible
-
-![An open Bible beside a quiet river bend](../assets/img/hero-light.webp)
 
 The full text of Scripture in Lao, free to read online or offline.
 

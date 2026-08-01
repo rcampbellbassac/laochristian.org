@@ -1,6 +1,7 @@
+---
+hero_image: study
+---
 # Written Resources
-
-![A small stack of books resting on a stone ledge](../../assets/img/study-light.webp)
 
 Sermons, Bible studies, and books for growing in faith — in Lao.
 

@@ -1,6 +1,7 @@
+---
+hero_image: about
+---
 # About LaoChristian.org
-
-![A quiet path winds through terraced hills toward the horizon](assets/img/about-light.webp)
 
 LaoChristian.org exists to make Scripture, worship, and Christian teaching freely
 available in the Lao language — for believers in Laos, the diaspora, and anyone
@@ -34,7 +35,7 @@ Join us for Sabbath worship, in person or online:
 - Every Saturday, in person and by [livestream](live.md)
 
 <div class="lc-adventist-slot" style="justify-content:flex-start;">
-<img src="assets/img/adventist-symbol.svg" alt="Seventh-day Adventist Church">
+<img src="../assets/img/adventist-symbol.svg" alt="Seventh-day Adventist Church">
 </div>
 
 ## Get in touch

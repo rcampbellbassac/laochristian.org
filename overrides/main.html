@@ -9,3 +9,20 @@
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:image" content="{{ config.site_url }}assets/img/og-image.png">
 {% endblock %}
+
+{#-
+  Full-width page hero, driven by front matter -- set `hero_image: NAME` on
+  any page (see docs/_style-guide.md) and it picks up
+  assets/img/NAME-light.webp / NAME-dark.webp automatically, swapped by
+  color scheme. Intentionally skipped on the homepage (index.md never sets
+  hero_image) since it builds its own bespoke hero in overrides/home.html.
+-#}
+{% block tabs %}
+  {{ super() }}
+  {% if page.meta and page.meta.hero_image %}
+    <div class="lc-page-hero">
+      <img class="lc-scheme-light" src="{{ ('assets/img/' ~ page.meta.hero_image ~ '-light.webp') | url }}" alt="">
+      <img class="lc-scheme-dark" src="{{ ('assets/img/' ~ page.meta.hero_image ~ '-dark.webp') | url }}" alt="">
+    </div>
+  {% endif %}
+{% endblock %}

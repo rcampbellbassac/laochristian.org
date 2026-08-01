@@ -156,10 +156,53 @@ li:lang(lo) {
   font-size: var(--lc-text-ui);
 }
 
-/* Banner images at the top of ordinary content pages (just a plain markdown
-   ![](...) — no custom HTML needed, so non-coders can add/replace them). */
 .md-typeset img {
   border-radius: 12px;
+}
+
+/* Light/dark image swap -- generalizes the header-logo toggle. Used both by
+   the full-width page hero below and anywhere else a raster image needs to
+   swap with the color scheme. */
+img.lc-scheme-dark {
+  display: none !important;
+}
+
+[data-md-color-scheme="slate"] img.lc-scheme-light {
+  display: none !important;
+}
+
+[data-md-color-scheme="slate"] img.lc-scheme-dark {
+  display: block !important;
+}
+
+/* Full-width page hero (overrides/main.html `tabs` block, driven by
+   `hero_image` front matter). Sits before <main>, outside the sidebar
+   grid, so it spans the full viewport width like the homepage hero. */
+.lc-page-hero {
+  position: relative;
+  width: 100%;
+  height: clamp(220px, 30vw, 420px);
+  overflow: hidden;
+}
+
+.lc-page-hero img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: 50% 65%;
+  border-radius: 0;
+}
+
+.lc-page-hero::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(to bottom, transparent 70%, var(--lc-paper) 100%);
+  pointer-events: none;
+}
+
+[data-md-color-scheme="slate"] .lc-page-hero::after {
+  background: linear-gradient(to bottom, transparent 70%, var(--lc-dark-bg) 100%);
 }
 
 /* ---- Card component (used by resource-gateway cards, Task 3) ---- */

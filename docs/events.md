@@ -1,6 +1,7 @@
+---
+hero_image: events
+---
 # Events
-
-![An empty pavilion strung with lanterns, prepared for a gathering](assets/img/events-light.webp)
 
 <!-- TODO: replace with real upcoming events. Suggested format for editors —
      just add a new "###" entry above the others, most recent first:
