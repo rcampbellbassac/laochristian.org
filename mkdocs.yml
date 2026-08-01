@@ -38,6 +38,7 @@ extra_css:
 
 extra_javascript:
   - assets/javascripts/lao-font-picker.js
+  - assets/javascripts/cookie-consent.js
 
 plugins:
   - search

@@ -1,0 +1,9 @@
+The visual direction is "Quiet Lao Modernism": contemporary editorial minimalism, disciplined grid structure, Japanese restraint and negative space, mid-century shape economy, and refined layered-paper illustration in a soft gouache/watercolor style, without imitating any specific designer. Peaceful, handcrafted but not rustic, modern but not technological.
+
+Use a limited palette: rice-paper background #F6F1E7, deep Mekong green #173B38, forest teal #2E675E, muted sage #789B83, dusty river blue #88A7B0, champa gold #E5B957, and soft clay #B86F50.
+
+Scene: a single round shortbread-style cookie with a bite taken out of one edge, rendered as a gentle paper-cut/gouache illustration, centered on a plain warm rice-paper background. One or two small dok champa flower petals rest beside it as a quiet accent. Soft, even lighting, minimal shadow.
+
+Composition: square format, the cookie small and centered with generous plain negative space all around it, so it can be cropped cleanly into a small circular or rounded-square icon later. No text, no logos, no UI elements, no browser or computer imagery of any kind.
+
+Avoid entirely: stock-clipart look, browser/computer chip puns, cartoonish or overly cute rendering, photorealistic style, gold ornamental borders, or any religious symbolism (this is a small utility icon, not a devotional image).
