@@ -1,0 +1,9 @@
+The visual direction is "Quiet Lao Modernism": contemporary editorial minimalism, disciplined grid structure, Japanese restraint and negative space, mid-century shape economy, and refined layered-paper illustration in a soft gouache/watercolor style, without imitating any specific designer. Peaceful, culturally Lao, Scripture-centered, handcrafted but not rustic, modern but not technological, distinctly Lao without resembling tourism advertising.
+
+Use a limited palette: rice-paper background #F6F1E7, deep Mekong green #173B38, forest teal #2E675E, muted sage #789B83, dusty river blue #88A7B0, champa gold #E5B957, and soft clay #B86F50. Warm ivory should be the dominant field. Add only faint paper grain and delicate layer shadows -- no glossy 3D rendering, glassmorphism, neon colors, or excessive gradients.
+
+Scene: a quiet dirt path winds up through a terraced Lao hillside toward the horizon, disappearing into soft morning mist between limestone mountains. A single dok champa branch with white-and-gold flowers leans gently in from the lower edge of the frame. The path is completely empty -- no people, no figures, no animals -- suggesting an open, ongoing journey rather than a specific traveler.
+
+Composition: wide landscape orientation, generous negative space in the sky/upper area for later text overlay, the path curving from the lower-left toward the misty center-horizon, terraces and mountains filling the rest of the frame. No text, no logos, no UI elements of any kind rendered in the image.
+
+Avoid entirely: temples, stupas, monks, Buddha imagery, elephants or tourism imagery, the Lao national flag, photorealistic stock-photo look, gold ornamental borders, any people or figures on the path, pilgrimage imagery from other religious traditions, dramatic or heroic lighting, oversized crosses, glowing supernatural effects, or any Adventist/denominational logo.
