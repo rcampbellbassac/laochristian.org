@@ -1,1 +1,160 @@
-/* Design tokens land here in the next step (palette, type scale, card styles). */
+/*
+  LaoChristian.org design tokens — from the ChatGPT design-brief
+  ("Quiet Lao Modernism"). See chatgpt-design-chat/ (local, gitignored)
+  for the source brief and reference imagery.
+*/
+
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;500;600;700&family=Noto+Sans+Lao+Looped:wght@400;500;600&family=Noto+Serif:wght@400;600;700&family=Noto+Serif+Lao:wght@400;600;700&display=swap");
+
+:root {
+  /* ---- Brief palette (light) ---- */
+  --lc-paper: #f6f1e7;      /* rice-paper background */
+  --lc-ink: #173b38;        /* deep Mekong green — primary ink */
+  --lc-brand: #2e675e;      /* forest teal — primary brand */
+  --lc-sage: #789b83;       /* muted sage — secondary foliage */
+  --lc-river: #88a7b0;      /* dusty blue — river & mist */
+  --lc-gold: #e5b957;       /* champa gold — accent, never dominant */
+  --lc-clay: #b86f50;       /* soft clay — earth accent */
+
+  /* ---- Dark mode ---- */
+  --lc-dark-bg: #102b34;    /* deep night blue */
+  --lc-dark-paper: #172f35; /* blue charcoal (card/surface tone) */
+
+  /* ---- Type ---- */
+  --lc-font-sans: "Noto Sans", "Noto Sans Lao Looped", sans-serif;
+  --lc-font-serif: "Noto Serif", "Noto Serif Lao", serif;
+
+  /* Scale from the brief (desktop; see clamp() below for mobile) */
+  --lc-text-hero: clamp(2.375rem, 1.7rem + 2.8vw, 4.5rem);      /* 38–72px */
+  --lc-text-section: clamp(2rem, 1.6rem + 1.6vw, 2.625rem);     /* 32–42px */
+  --lc-text-card: clamp(1.3125rem, 1.2rem + 0.4vw, 1.625rem);   /* 21–26px */
+  --lc-text-body-lo: 1.125rem;   /* 18px, line-height 1.7 */
+  --lc-text-body-en: 1rem;
+  --lc-text-ui: 1rem;            /* 16–18px */
+
+  --lc-radius-card: 15px; /* 14–16px per brief */
+}
+
+/* ---- Wire tokens into Material's own variables (light) ---- */
+:root,
+[data-md-color-scheme="default"] {
+  --md-default-bg-color: var(--lc-paper);
+  --md-default-fg-color: var(--lc-ink);
+  --md-default-fg-color--light: color-mix(in srgb, var(--lc-ink), transparent 35%);
+  --md-default-fg-color--lighter: color-mix(in srgb, var(--lc-ink), transparent 65%);
+  --md-primary-fg-color: var(--lc-brand);
+  --md-primary-bg-color: var(--lc-paper);
+  --md-accent-fg-color: var(--lc-clay);
+  --md-typeset-a-color: var(--lc-brand);
+  --md-footer-bg-color: var(--lc-ink);
+  --md-footer-bg-color--dark: #102b26;
+  --md-footer-fg-color: var(--lc-paper);
+  --md-footer-fg-color--light: color-mix(in srgb, var(--lc-paper), transparent 25%);
+}
+
+/* ---- Wire tokens into Material's own variables (dark / "slate") ---- */
+[data-md-color-scheme="slate"] {
+  --md-default-bg-color: var(--lc-dark-bg);
+  --md-default-fg-color: var(--lc-paper);
+  --md-default-fg-color--light: color-mix(in srgb, var(--lc-paper), transparent 30%);
+  --md-default-fg-color--lighter: color-mix(in srgb, var(--lc-paper), transparent 60%);
+  --md-primary-fg-color: var(--lc-dark-paper);
+  --md-primary-bg-color: var(--lc-paper);
+  --md-accent-fg-color: var(--lc-gold);
+  --md-typeset-a-color: var(--lc-gold);
+  --md-footer-bg-color: #0b1f26;
+  --md-footer-bg-color--dark: #081619;
+  --md-footer-fg-color: var(--lc-paper);
+  --md-footer-fg-color--light: color-mix(in srgb, var(--lc-paper), transparent 25%);
+  --md-typeset-table-color: color-mix(in srgb, var(--lc-paper), transparent 80%);
+}
+
+/* ---- Base type ---- */
+body,
+.md-typeset {
+  font-family: var(--lc-font-sans);
+}
+
+.md-typeset h1,
+.md-typeset h2,
+.md-typeset h3,
+.lc-font-serif {
+  font-family: var(--lc-font-serif);
+  font-weight: 600; /* brief: prefer 600/700 over heavy 800 */
+}
+
+.md-typeset h1 {
+  font-size: var(--lc-text-hero);
+  line-height: 1.15;
+}
+
+.md-typeset h2 {
+  font-size: var(--lc-text-section);
+  line-height: 1.2;
+}
+
+.md-typeset h3 {
+  font-size: var(--lc-text-card);
+}
+
+/* Lao text gets the taller line-height the brief calls for (1.65–1.8) */
+:lang(lo),
+.md-typeset :lang(lo) {
+  line-height: 1.7;
+}
+
+.md-typeset {
+  font-size: var(--lc-text-ui);
+}
+
+/* ---- Card component (used by resource-gateway cards, Task 3) ---- */
+.lc-card {
+  display: block;
+  border-radius: var(--lc-radius-card);
+  border: 1px solid color-mix(in srgb, var(--lc-ink), transparent 88%);
+  background: color-mix(in srgb, var(--lc-paper), white 0%);
+  box-shadow: 0 1px 2px color-mix(in srgb, var(--lc-ink), transparent 92%);
+  padding: 1.25rem 1.5rem;
+  transition: box-shadow 0.2s ease, transform 0.2s ease;
+}
+
+.lc-card:hover {
+  box-shadow: 0 4px 14px color-mix(in srgb, var(--lc-ink), transparent 85%);
+  transform: translateY(-2px);
+}
+
+[data-md-color-scheme="slate"] .lc-card {
+  background: var(--lc-dark-paper);
+  border-color: color-mix(in srgb, var(--lc-paper), transparent 85%);
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.4);
+}
+
+/* ---- Accent chip (gold — highlight only, never a dominant fill) ---- */
+.lc-chip-gold {
+  display: inline-flex;
+  align-items: center;
+  border-radius: 999px;
+  padding: 0.15rem 0.65rem;
+  font-size: 0.8rem;
+  font-weight: 600;
+  background: color-mix(in srgb, var(--lc-gold), transparent 78%);
+  color: color-mix(in srgb, var(--lc-clay), black 15%);
+}
+
+[data-md-color-scheme="slate"] .lc-chip-gold {
+  background: color-mix(in srgb, var(--lc-gold), transparent 70%);
+  color: var(--lc-gold);
+}
+
+/* ---- Reserved Adventist-symbol slot (never generated art, just a frame) ---- */
+.lc-adventist-slot {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 3rem;
+  border: 1px dashed color-mix(in srgb, var(--lc-paper), transparent 55%);
+  border-radius: 8px;
+  color: color-mix(in srgb, var(--lc-paper), transparent 35%);
+  font-size: 0.75rem;
+  padding: 0.5rem;
+}
