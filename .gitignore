@@ -7,5 +7,9 @@ site/
 # Design-brief working material (large PDF/PNG exports, not build inputs)
 chatgpt-design-chat/
 
+# Full-res source art (regeneratable from assets-src/prompts/ + the image-gen
+# API; only the optimized derivatives in docs/assets/img/ actually ship)
+assets-src/raw/
+
 # Editor/OS cruft
 .DS_Store

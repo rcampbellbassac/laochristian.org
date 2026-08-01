@@ -51,15 +51,24 @@
   --lc-font-sans: "Noto Sans", "Noto Sans Lao Looped", sans-serif;
   --lc-font-serif: "Noto Serif", "Noto Serif Lao", serif;
 
-  /* Scale from the brief (desktop; see clamp() below for mobile) */
-  --lc-text-hero: clamp(2.375rem, 1.7rem + 2.8vw, 4.5rem);      /* 38–72px */
-  --lc-text-section: clamp(2rem, 1.6rem + 1.6vw, 2.625rem);     /* 32–42px */
-  --lc-text-card: clamp(1.3125rem, 1.2rem + 0.4vw, 1.625rem);   /* 21–26px */
-  --lc-text-body-lo: 1.125rem;   /* 18px, line-height 1.7 */
-  --lc-text-body-en: 1rem;
-  --lc-text-ui: 1rem;            /* 16–18px */
+  /* Scale from the brief, in absolute px (not rem): Material's own root
+     font-size is 20px, not the browser default 16px, so rem-based clamps
+     here would silently overshoot the brief's literal px targets. */
+  --lc-text-hero: clamp(38px, 30px + 2.8vw, 72px);
+  --lc-text-section: clamp(32px, 28px + 1.2vw, 42px);
+  --lc-text-card: clamp(21px, 19px + 0.4vw, 26px);
+  --lc-text-body-lo: 19px;   /* 18–20px, line-height 1.7 */
+  --lc-text-body-en: 16px;
+  --lc-text-ui: clamp(16px, 15px + 0.3vw, 18px);
 
   --lc-radius-card: 15px; /* 14–16px per brief */
+
+  /* Homepage art — see assets-src/prompts/ for provenance and the
+     original ChatGPT design-brief prompts these came from. */
+  --lc-hero-img-light: url("../img/hero-light.webp");
+  --lc-hero-img-dark: url("../img/hero-dark.webp");
+  --lc-worship-img-light: url("../img/worship-light.webp");
+  --lc-worship-img-dark: url("../img/worship-dark.webp");
 }
 
 /* ---- Wire tokens into Material's own variables (light) ---- */
@@ -102,32 +111,45 @@ body,
   font-family: var(--lc-font-sans);
 }
 
+/* .lc-home variants included because the custom homepage template
+   (overrides/home.html) renders outside Material's .md-typeset wrapper
+   (its `container` block is intentionally emptied — see that file). */
 .md-typeset h1,
 .md-typeset h2,
 .md-typeset h3,
+.lc-home h1,
+.lc-home h2,
+.lc-home h3,
 .lc-font-serif {
   font-family: var(--lc-font-serif);
   font-weight: 600; /* brief: prefer 600/700 over heavy 800 */
 }
 
-.md-typeset h1 {
+.md-typeset h1,
+.lc-home h1 {
   font-size: var(--lc-text-hero);
   line-height: 1.15;
 }
 
-.md-typeset h2 {
+.md-typeset h2,
+.lc-home h2 {
   font-size: var(--lc-text-section);
   line-height: 1.2;
 }
 
-.md-typeset h3 {
+.md-typeset h3,
+.lc-home h3 {
   font-size: var(--lc-text-card);
 }
 
-/* Lao text gets the taller line-height the brief calls for (1.65–1.8) */
-:lang(lo),
-.md-typeset :lang(lo) {
+/* Lao body text: slightly larger + taller line-height than English (brief: 18–20px, 1.65–1.8) */
+:lang(lo) {
   line-height: 1.7;
+}
+
+p:lang(lo),
+li:lang(lo) {
+  font-size: var(--lc-text-body-lo);
 }
 
 .md-typeset {
@@ -228,4 +250,354 @@ html[data-lao-font] .md-typeset h3 {
   color: color-mix(in srgb, var(--lc-paper), transparent 35%);
   font-size: 0.75rem;
   padding: 0.5rem;
+}
+
+/* =====================================================================
+   Homepage (overrides/home.html)
+   ===================================================================== */
+
+.lc-section {
+  padding: clamp(2.5rem, 4vw, 4.5rem) clamp(1.25rem, 4vw, 3rem);
+}
+
+.lc-section-inner {
+  max-width: 74rem;
+  margin-inline: auto;
+}
+
+.lc-eyebrow {
+  font-family: var(--lc-font-sans);
+  font-size: 0.8rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--lc-brand);
+}
+
+[data-md-color-scheme="slate"] .lc-eyebrow {
+  color: var(--lc-gold);
+}
+
+/* ---- Hero ---- */
+.lc-hero {
+  position: relative;
+  background-image: var(--lc-hero-img-light);
+  background-size: cover;
+  background-position: center right;
+  border-bottom: 1px solid color-mix(in srgb, var(--lc-ink), transparent 88%);
+}
+
+[data-md-color-scheme="slate"] .lc-hero {
+  background-image: var(--lc-hero-img-dark);
+  border-bottom-color: color-mix(in srgb, var(--lc-paper), transparent 88%);
+}
+
+.lc-hero-inner {
+  max-width: 74rem;
+  margin-inline: auto;
+  padding: clamp(3rem, 8vw, 6rem) clamp(1.25rem, 6vw, 3rem) clamp(3rem, 8vw, 6rem) clamp(1.25rem, 6vw, 3rem);
+  padding-right: clamp(1.25rem, 6vw, 3rem);
+}
+
+.lc-hero-text {
+  max-width: 34rem;
+}
+
+.lc-hero-text .lc-lao {
+  font-family: var(--lc-font-serif);
+  font-size: var(--lc-text-hero);
+  line-height: 1.1;
+  margin: 0.4rem 0 0;
+  color: var(--lc-ink);
+}
+
+[data-md-color-scheme="slate"] .lc-hero-text .lc-lao {
+  color: var(--lc-paper);
+}
+
+.lc-hero-text .lc-wordmark {
+  font-family: var(--lc-font-serif);
+  font-size: clamp(1.25rem, 1rem + 1vw, 1.75rem);
+  font-weight: 600;
+  margin: 0.2rem 0 1.1rem;
+  color: color-mix(in srgb, var(--lc-ink), transparent 20%);
+}
+
+[data-md-color-scheme="slate"] .lc-hero-text .lc-wordmark {
+  color: color-mix(in srgb, var(--lc-paper), transparent 15%);
+}
+
+.lc-hero-text p {
+  font-size: 1.15rem;
+  line-height: 1.6;
+  max-width: 30rem;
+  margin: 0 0 1.75rem;
+  color: var(--lc-ink);
+}
+
+[data-md-color-scheme="slate"] .lc-hero-text p {
+  color: var(--lc-paper);
+}
+
+.lc-hero-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.85rem;
+}
+
+.lc-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  font-family: var(--lc-font-sans);
+  font-weight: 600;
+  font-size: 17px;
+  padding: 0.7rem 1.4rem;
+  border-radius: 999px;
+  text-decoration: none !important;
+  transition: transform 0.15s ease, box-shadow 0.15s ease;
+}
+
+.lc-btn:hover {
+  transform: translateY(-1px);
+}
+
+.lc-btn-primary {
+  background: var(--lc-brand);
+  color: var(--lc-paper) !important;
+  box-shadow: 0 6px 18px color-mix(in srgb, var(--lc-brand), transparent 65%);
+}
+
+[data-md-color-scheme="slate"] .lc-btn-primary {
+  background: var(--lc-gold);
+  color: var(--lc-dark-bg) !important;
+  box-shadow: 0 6px 18px color-mix(in srgb, var(--lc-gold), transparent 70%);
+}
+
+.lc-btn-secondary {
+  background: transparent;
+  color: var(--lc-ink) !important;
+  border: 1px solid color-mix(in srgb, var(--lc-ink), transparent 55%);
+}
+
+[data-md-color-scheme="slate"] .lc-btn-secondary {
+  color: var(--lc-paper) !important;
+  border-color: color-mix(in srgb, var(--lc-paper), transparent 55%);
+}
+
+/* Reserved "Sabbath column" — right-edge accent strip, desktop only */
+.lc-sabbath-col {
+  display: none;
+}
+
+@media (min-width: 76rem) {
+  .lc-sabbath-col {
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    width: 4.5rem;
+    padding: 1.5rem 0.75rem;
+    background: var(--lc-ink);
+  }
+
+  .lc-sabbath-col .lc-adventist-slot {
+    writing-mode: vertical-rl;
+    min-height: 0;
+    min-width: 2.5rem;
+  }
+}
+
+/* ---- Resource gateway cards ---- */
+.lc-resource-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(15.5rem, 1fr));
+  gap: 1.25rem;
+  margin-top: 2rem;
+}
+
+.lc-resource-card {
+  display: flex;
+  flex-direction: column;
+  gap: 0.85rem;
+}
+
+.lc-resource-card .lc-icon {
+  width: 2.75rem;
+  height: 2.75rem;
+  color: var(--lc-brand);
+}
+
+[data-md-color-scheme="slate"] .lc-resource-card .lc-icon {
+  color: var(--lc-gold);
+}
+
+.lc-resource-card h3 {
+  margin: 0;
+}
+
+.lc-resource-card p {
+  margin: 0;
+  color: color-mix(in srgb, var(--lc-ink), transparent 25%);
+  font-size: 0.95rem;
+  line-height: 1.55;
+  flex: 1;
+}
+
+[data-md-color-scheme="slate"] .lc-resource-card p {
+  color: color-mix(in srgb, var(--lc-paper), transparent 20%);
+}
+
+.lc-resource-card .lc-card-link {
+  font-weight: 600;
+  font-size: 0.9rem;
+  color: var(--lc-brand) !important;
+  text-decoration: none !important;
+}
+
+[data-md-color-scheme="slate"] .lc-resource-card .lc-card-link {
+  color: var(--lc-gold) !important;
+}
+
+/* ---- Sieng Khaen Lao section ---- */
+.lc-worship {
+  background-image: linear-gradient(
+      to bottom,
+      color-mix(in srgb, var(--lc-ink), transparent 8%),
+      color-mix(in srgb, var(--lc-ink), transparent 8%)
+    ),
+    var(--lc-worship-img-light);
+  background-size: cover;
+  background-position: center;
+  color: var(--lc-paper);
+}
+
+[data-md-color-scheme="slate"] .lc-worship {
+  background-image: linear-gradient(
+      to bottom,
+      color-mix(in srgb, var(--lc-dark-bg), transparent 15%),
+      color-mix(in srgb, var(--lc-dark-bg), transparent 15%)
+    ),
+    var(--lc-worship-img-dark);
+}
+
+.lc-worship .lc-eyebrow {
+  color: var(--lc-gold);
+}
+
+.lc-worship h2 {
+  color: var(--lc-paper);
+  margin-top: 0.3rem;
+}
+
+.lc-worship p {
+  max-width: 40rem;
+  font-size: 1.05rem;
+  line-height: 1.65;
+  color: color-mix(in srgb, var(--lc-paper), transparent 8%);
+}
+
+.lc-worship .lc-hero-actions {
+  margin-top: 1.5rem;
+}
+
+.lc-worship .lc-btn-secondary {
+  color: var(--lc-paper) !important;
+  border-color: color-mix(in srgb, var(--lc-paper), transparent 45%);
+}
+
+/* ---- Mission section ---- */
+.lc-mission {
+  background: color-mix(in srgb, var(--lc-sage), var(--lc-paper) 78%);
+  text-align: center;
+}
+
+[data-md-color-scheme="slate"] .lc-mission {
+  background: color-mix(in srgb, var(--lc-dark-paper), var(--lc-dark-bg) 40%);
+}
+
+.lc-mission .lc-section-inner {
+  max-width: 42rem;
+}
+
+.lc-mission .lc-eyebrow {
+  display: block;
+}
+
+.lc-mission p {
+  font-size: 1.1rem;
+  line-height: 1.65;
+}
+
+/* ---- Site-wide footer (overrides/partials/footer.html) ---- */
+.lc-footer {
+  padding: 2.5rem 1.5rem 1.5rem;
+}
+
+.lc-footer-inner {
+  max-width: 74rem;
+  margin-inline: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 2rem;
+}
+
+.lc-footer-brand {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  font-family: var(--lc-font-serif);
+  font-size: 1.15rem;
+  color: var(--md-footer-fg-color);
+}
+
+.lc-footer-brand img {
+  height: 2rem;
+  width: auto;
+}
+
+.lc-footer-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.lc-footer-links a {
+  color: var(--md-footer-fg-color--light) !important;
+  text-decoration: none !important;
+  font-size: 0.9rem;
+}
+
+.lc-footer-links a:hover {
+  color: var(--md-footer-fg-color) !important;
+}
+
+.lc-footer-social {
+  display: flex;
+  gap: 0.85rem;
+}
+
+.lc-footer-social a {
+  color: var(--md-footer-fg-color--light) !important;
+}
+
+.lc-footer-social a:hover {
+  color: var(--lc-gold) !important;
+}
+
+.lc-footer-social svg {
+  width: 1.15rem;
+  height: 1.15rem;
+}
+
+.lc-footer .lc-adventist-slot {
+  max-width: 20rem;
+  margin-top: 1.5rem;
 }

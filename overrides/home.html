@@ -1,14 +1,110 @@
 {% extends "main.html" %}
 
-{% block content %}{% endblock %}
+{% block container %}{% endblock %}
 {% block site_nav %}{% endblock %}
+
+{% block htmltitle %}
+  <title>{{ config.site_name }} — {{ config.site_description }}</title>
+{% endblock %}
 
 {% block tabs %}
   {{ super() }}
-  <section class="lc-hero-placeholder">
-    <div class="md-grid md-typeset">
-      <h1>LaoChristian.org</h1>
-      <p>Homepage build in progress — the full hero, resource cards, and Sieng Khaen Lao section land here next.</p>
-    </div>
-  </section>
+  <div class="lc-home">
+
+    <!-- Hero -->
+    <section class="lc-hero">
+      <div class="lc-hero-inner">
+        <div class="lc-hero-text">
+          <p class="lc-eyebrow">Lao Christian &amp; Adventist community</p>
+          <p class="lc-wordmark">LaoChristian.org</p>
+          <h1 class="lc-lao" lang="lo">ລາວຄຣິສຕຽນ</h1>
+          <p>Scripture, worship, and Christian resources for Lao communities everywhere.</p>
+          <div class="lc-hero-actions">
+            <a class="lc-btn lc-btn-primary" href="{{ 'resources/' | url }}">Explore Resources</a>
+            <a class="lc-btn lc-btn-secondary" href="https://rcampbellbassac.github.io/lao-christian-app/">Open Apps</a>
+          </div>
+        </div>
+      </div>
+      <div class="lc-sabbath-col">
+        <div class="lc-adventist-slot">Adventist symbol — reserved</div>
+      </div>
+    </section>
+
+    <!-- Resource gateway -->
+    <section class="lc-section">
+      <div class="lc-section-inner">
+        <p class="lc-eyebrow">Start here</p>
+        <h2>Everything you need to grow in faith, in Lao</h2>
+        <div class="lc-resource-grid">
+
+          <a class="lc-card lc-resource-card" href="{{ 'resources/bible/' | url }}">
+            <svg class="lc-icon" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+              <path d="M24 12c-3.5-2.4-8-3.5-13-3.5v25c5 0 9.5 1.1 13 3.5V12z" fill="currentColor" opacity="0.9"/>
+              <path d="M24 12c3.5-2.4 8-3.5 13-3.5v25c-5 0-9.5 1.1-13 3.5V12z" fill="currentColor" opacity="0.65"/>
+              <path d="M24 12v25" stroke="var(--lc-paper)" stroke-width="1.2" opacity="0.6"/>
+            </svg>
+            <h3>Read the Lao Bible</h3>
+            <p>The full text of Scripture in Lao — free to read online or offline.</p>
+            <span class="lc-card-link">Open the Bible →</span>
+          </a>
+
+          <a class="lc-card lc-resource-card" href="{{ 'resources/songs/' | url }}">
+            <svg class="lc-icon" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+              <rect x="10" y="18" width="3" height="20" rx="1.5" fill="currentColor"/>
+              <rect x="16" y="12" width="3" height="26" rx="1.5" fill="currentColor" opacity="0.85"/>
+              <rect x="22" y="16" width="3" height="22" rx="1.5" fill="currentColor" opacity="0.7"/>
+              <circle cx="34" cy="32" r="4.5" fill="currentColor"/>
+              <path d="M38.5 32V11l-4 1.3" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/>
+            </svg>
+            <h3>Sing and Worship</h3>
+            <p>Hymns, gospel songs, and the Sieng Khaen Lao music ministry.</p>
+            <span class="lc-card-link">Listen and sing →</span>
+          </a>
+
+          <a class="lc-card lc-resource-card" href="{{ 'resources/written/' | url }}">
+            <svg class="lc-icon" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+              <rect x="8" y="10" width="9" height="28" rx="1.5" fill="currentColor" opacity="0.55"/>
+              <rect x="19.5" y="8" width="9" height="30" rx="1.5" fill="currentColor" opacity="0.85"/>
+              <rect x="31" y="12" width="9" height="26" rx="1.5" fill="currentColor"/>
+              <path d="M23 14h2M23 18h2" stroke="var(--lc-paper)" stroke-width="1.1" opacity="0.7"/>
+            </svg>
+            <h3>Explore Christian Resources</h3>
+            <p>Sermons, Bible studies, and books for growing in faith.</p>
+            <span class="lc-card-link">Start reading →</span>
+          </a>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- Sieng Khaen Lao -->
+    <section class="lc-section lc-worship">
+      <div class="lc-section-inner">
+        <p class="lc-eyebrow">Music ministry</p>
+        <h2>Sieng Khaen Lao</h2>
+        <p lang="lo">ສຽງແຄນລາວ — the sound of the Lao khaen, carrying hymns and gospel songs to Lao Christian communities around the world.</p>
+        <div class="lc-hero-actions">
+          <a class="lc-btn lc-btn-primary" href="{{ 'resources/songs/' | url }}">Visit Sieng Khaen Lao</a>
+          <a class="lc-btn lc-btn-secondary" href="https://www.youtube.com/@Laochristiandotorg">Watch on YouTube</a>
+          <a class="lc-btn lc-btn-secondary" href="https://www.facebook.com/sklgospel">Follow on Facebook</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Mission -->
+    <section class="lc-section lc-mission">
+      <div class="lc-section-inner">
+        <p class="lc-eyebrow">Why we're here</p>
+        <h2>Scripture and worship in the heart language</h2>
+        <p>
+          We exist to make Scripture, worship, and Christian teaching freely available in the
+          Lao language — for believers in Laos, the diaspora, and anyone seeking to know God in
+          their own heart language. Everything here is free and built to work even on a slow
+          connection.
+        </p>
+        <a class="lc-btn lc-btn-secondary" href="{{ 'about/' | url }}">Learn more about us →</a>
+      </div>
+    </section>
+
+  </div>
 {% endblock %}
