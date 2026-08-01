@@ -205,9 +205,47 @@ img.lc-scheme-dark {
   background: linear-gradient(to bottom, transparent 70%, var(--lc-dark-bg) 100%);
 }
 
+/* ---- Paper grain (procedural SVG noise, not a generated image: seamless
+   by construction, adapts to any color underneath via blend-mode, and
+   costs ~300 bytes instead of a raster texture per surface/scheme). ---- */
+body {
+  position: relative;
+}
+
+body::after {
+  content: "";
+  position: fixed;
+  inset: 0;
+  z-index: 1000;
+  background-image: url("../img/paper-grain.svg");
+  background-repeat: repeat;
+  mix-blend-mode: overlay;
+  opacity: 0.09;
+  pointer-events: none;
+}
+
+.lc-grain,
+.lc-card {
+  position: relative;
+}
+
+.lc-grain::after,
+.lc-card::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border-radius: inherit;
+  background-image: url("../img/paper-grain.svg");
+  background-repeat: repeat;
+  mix-blend-mode: overlay;
+  opacity: 0.14;
+  pointer-events: none;
+}
+
 /* ---- Card component (used by resource-gateway cards, Task 3) ---- */
 .lc-card {
   display: block;
+  position: relative;
   border-radius: var(--lc-radius-card);
   border: 1px solid color-mix(in srgb, var(--lc-ink), transparent 88%);
   background: color-mix(in srgb, var(--lc-paper), white 0%);
