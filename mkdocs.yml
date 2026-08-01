@@ -1,0 +1,86 @@
+site_name: LaoChristian.org
+site_url: https://www.laochristian.org/
+site_description: >-
+  Scripture, worship, and Christian resources for Lao communities everywhere.
+repo_url: https://github.com/rcampbellbassac/laochristian.org
+repo_name: rcampbellbassac/laochristian.org
+edit_uri: edit/main/docs/
+
+theme:
+  name: material
+  custom_dir: overrides
+  font: false # we load Noto Sans / Noto Serif (Lao + English) ourselves in extra.css
+  favicon: assets/img/favicon.ico
+  logo: assets/img/mark.svg
+  icon:
+    edit: material/pencil
+  features:
+    - navigation.tabs
+    - navigation.top
+    - navigation.indexes
+    - content.action.edit
+    - search.suggest
+    - search.highlight
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      toggle:
+        icon: material/weather-night
+        name: Switch to light mode
+
+extra_css:
+  - assets/stylesheets/extra.css
+
+plugins:
+  - search
+  - i18n:
+      docs_structure: suffix
+      languages:
+        - locale: en
+          default: true
+          name: English
+          build: true
+        - locale: lo
+          name: ລາວ
+          build: true
+  - git-revision-date-localized:
+      enable_creation_date: false
+  - minify:
+      minify_html: true
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - md_in_html
+  - tables
+  - footnotes
+  - pymdownx.details
+  - pymdownx.superfences
+  - toc:
+      permalink: true
+
+nav:
+  - Home: index.md
+  - About: about.md
+  - Resources:
+      - resources/index.md
+      - Lao Bible: resources/bible.md
+      - Sieng Khaen Lao (Songs): resources/songs.md
+      - Written:
+          - resources/written/index.md
+          - Sermons: resources/written/sermons.md
+          - Studies: resources/written/studies.md
+          - Books: resources/written/books.md
+      - Audio: resources/audio.md
+  - Events: events.md
+  - Give: give.md
+  - Apps: apps.md
+  - Live: live.md
+  - Contact: contact.md
+  - Privacy: privacy.md
+  - Cookies: cookies.md

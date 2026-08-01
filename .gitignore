@@ -1,0 +1,11 @@
+# Python / MkDocs
+.venv/
+__pycache__/
+*.pyc
+site/
+
+# Design-brief working material (large PDF/PNG exports, not build inputs)
+chatgpt-design-chat/
+
+# Editor/OS cruft
+.DS_Store
