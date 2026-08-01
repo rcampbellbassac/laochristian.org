@@ -195,6 +195,24 @@ li:lang(lo) {
   color: var(--lc-gold);
 }
 
+/* ---- Brand mark (original black/white LaoChristian.org logo, swapped by scheme) ---- */
+.md-logo .lc-mark {
+  height: 1.4rem;
+  width: auto;
+}
+
+img.lc-mark-dark {
+  display: none !important;
+}
+
+[data-md-color-scheme="slate"] img.lc-mark-light {
+  display: none !important;
+}
+
+[data-md-color-scheme="slate"] img.lc-mark-dark {
+  display: inline !important;
+}
+
 /* ---- Lao font picker (review tool for the Lao team's font bake-off) ---- */
 /* Font-family values here must match the `cssFamily` values in
    docs/assets/javascripts/lao-font-picker.js (kept in sync with

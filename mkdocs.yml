@@ -11,7 +11,7 @@ theme:
   custom_dir: overrides
   font: false # we load Noto Sans / Noto Serif (Lao + English) ourselves in extra.css
   favicon: assets/img/favicon.ico
-  logo: assets/img/mark.svg
+  logo: assets/img/mark-light.png
   icon:
     edit: material/pencil
   features:
