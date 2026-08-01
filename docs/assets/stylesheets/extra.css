@@ -156,6 +156,12 @@ li:lang(lo) {
   font-size: var(--lc-text-ui);
 }
 
+/* Banner images at the top of ordinary content pages (just a plain markdown
+   ![](...) — no custom HTML needed, so non-coders can add/replace them). */
+.md-typeset img {
+  border-radius: 12px;
+}
+
 /* ---- Card component (used by resource-gateway cards, Task 3) ---- */
 .lc-card {
   display: block;
@@ -213,6 +219,125 @@ img.lc-mark-dark {
   display: inline !important;
 }
 
+/* ---- Cookie consent banner ---- */
+.lc-cookie-banner {
+  position: fixed;
+  left: 1.25rem;
+  right: 1.25rem;
+  bottom: 1.25rem;
+  z-index: 10;
+  max-width: 30rem;
+  margin-inline: auto;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding: 1rem 1.25rem;
+  border-radius: 18px;
+  background: var(--lc-paper);
+  border: 1px solid color-mix(in srgb, var(--lc-ink), transparent 85%);
+  box-shadow: 0 12px 32px rgba(15, 30, 28, 0.22);
+  font-family: var(--lc-font-sans);
+  transform: translateY(0);
+  opacity: 1;
+  transition: transform 0.35s ease, opacity 0.35s ease;
+}
+
+.lc-cookie-banner[hidden] {
+  display: flex !important; /* keep animating out instead of vanishing */
+  pointer-events: none;
+  transform: translateY(1.5rem);
+  opacity: 0;
+}
+
+[data-md-color-scheme="slate"] .lc-cookie-banner {
+  background: var(--lc-dark-paper);
+  border-color: color-mix(in srgb, var(--lc-paper), transparent 85%);
+  box-shadow: 0 12px 32px rgba(0, 0, 0, 0.45);
+}
+
+.lc-cookie-banner img {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 10px;
+  flex-shrink: 0;
+}
+
+.lc-cookie-banner-text {
+  flex: 1;
+  font-size: 0.85rem;
+  line-height: 1.5;
+  color: var(--lc-ink);
+}
+
+[data-md-color-scheme="slate"] .lc-cookie-banner-text {
+  color: var(--lc-paper);
+}
+
+.lc-cookie-banner-text a {
+  color: var(--lc-brand) !important;
+}
+
+[data-md-color-scheme="slate"] .lc-cookie-banner-text a {
+  color: var(--lc-gold) !important;
+}
+
+.lc-cookie-banner-actions {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.lc-cookie-banner-actions button {
+  font-family: var(--lc-font-sans);
+  font-weight: 600;
+  font-size: 0.8rem;
+  padding: 0.45rem 1rem;
+  border-radius: 999px;
+  cursor: pointer;
+  white-space: nowrap;
+}
+
+.lc-cookie-accept {
+  background: var(--lc-brand);
+  color: var(--lc-paper);
+  border: none;
+}
+
+[data-md-color-scheme="slate"] .lc-cookie-accept {
+  background: var(--lc-gold);
+  color: var(--lc-dark-bg);
+}
+
+.lc-cookie-reject {
+  background: transparent;
+  color: var(--lc-ink);
+  border: 1px solid color-mix(in srgb, var(--lc-ink), transparent 55%);
+}
+
+[data-md-color-scheme="slate"] .lc-cookie-reject {
+  color: var(--lc-paper);
+  border-color: color-mix(in srgb, var(--lc-paper), transparent 55%);
+}
+
+@media (max-width: 30rem) {
+  .lc-cookie-banner {
+    flex-direction: column;
+    align-items: flex-start;
+    left: 0.75rem;
+    right: 0.75rem;
+    bottom: 0.75rem;
+  }
+
+  .lc-cookie-banner-actions {
+    flex-direction: row;
+    width: 100%;
+  }
+
+  .lc-cookie-banner-actions button {
+    flex: 1;
+  }
+}
+
 /* ---- Lao font picker (review tool for the Lao team's font bake-off) ---- */
 /* Font-family values here must match the `cssFamily` values in
    docs/assets/javascripts/lao-font-picker.js (kept in sync with
@@ -257,17 +382,21 @@ html[data-lao-font] .md-typeset h3 {
   color: #111;
 }
 
-/* ---- Reserved Adventist-symbol slot (never generated art, just a frame) ---- */
+/* ---- Official Adventist symbol slot ----
+   Never redrawn/recolored/modified -- the badge (white mark on denim blue)
+   is self-contained and reads correctly on any background, so it's used
+   as-is everywhere rather than needing separate light/dark variants. */
 .lc-adventist-slot {
   display: flex;
   align-items: center;
   justify-content: center;
-  min-height: 3rem;
-  border: 1px dashed color-mix(in srgb, var(--lc-paper), transparent 55%);
-  border-radius: 8px;
-  color: color-mix(in srgb, var(--lc-paper), transparent 35%);
-  font-size: 0.75rem;
   padding: 0.5rem;
+}
+
+.lc-adventist-slot img {
+  width: 2.75rem;
+  height: 2.75rem;
+  border-radius: 6px;
 }
 
 /* =====================================================================
@@ -423,9 +552,7 @@ html[data-lao-font] .md-typeset h3 {
   }
 
   .lc-sabbath-col .lc-adventist-slot {
-    writing-mode: vertical-rl;
-    min-height: 0;
-    min-width: 2.5rem;
+    padding: 0;
   }
 }
 

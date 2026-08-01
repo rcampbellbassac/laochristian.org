@@ -50,8 +50,9 @@ Card component — 15px radius, 1px border, minimal shadow, lifts slightly on ho
 <span class="lc-chip-gold">New</span>
 </div>
 
-<div class="lc-adventist-slot" style="color:var(--lc-ink); border-color:color-mix(in srgb, var(--lc-ink), transparent 55%); max-width:22rem; margin-top:1rem;">
-Reserved — official Adventist symbol placed here later, unmodified
+<div class="lc-adventist-slot" style="justify-content:flex-start; max-width:22rem; margin-top:1rem;">
+<img src="assets/img/adventist-symbol.svg" alt="Seventh-day Adventist Church">
+<span style="margin-left:0.6rem;">Official symbol, used unmodified per NAD brand guidelines</span>
 </div>
 
 Toggle light/dark mode (top right) and switch language (🌐 icon) to check both variants.
