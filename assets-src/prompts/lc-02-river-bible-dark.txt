@@ -1,0 +1,9 @@
+The visual direction is "Quiet Lao Modernism": contemporary editorial minimalism, disciplined grid structure, Japanese restraint and negative space, mid-century shape economy, and refined layered-paper illustration in a soft gouache/watercolor style, without imitating any specific designer. Peaceful, culturally Lao, Scripture-centered, handcrafted but not rustic, modern but not technological, distinctly Lao without resembling tourism advertising.
+
+Use a limited palette, now in a deep-night register: deep night blue #102B34 and blue charcoal #172F35 as the dominant dark field, with deep Mekong green #173B38, forest teal #2E675E, muted sage #789B83, and champa gold #E5B957 as warm lamp-light accents. Add only faint paper grain and delicate layer shadows -- no glossy 3D rendering, glassmorphism, neon colors, or excessive gradients.
+
+Scene: the same open Bible beside the same quiet river bend, now under soft moonlight. The Bible is illuminated by a small, warm, non-ornamental reading lamp -- not glowing or supernatural, just a simple lamp. A branch of white-and-gold dok champa flowers leans in from the lower-left edge. Moonlight reflects on the winding river; a few distant village lights remain small and understated along the riverbank. Limestone mountains are a dark silhouette in the distance.
+
+Composition: wide landscape orientation, generous negative space in the upper sky area for later text overlay (room for a moon), the lamp-lit Bible and champa positioned in the lower-left third, the dark mountains and river filling the right two-thirds. No text, no logos, no UI elements of any kind rendered in the image.
+
+Avoid entirely: temples, stupas, monks, Buddha imagery, elephants or tourism imagery, the Lao national flag, photorealistic stock-photo look, gold ornamental borders, oversized crosses, floating pages, Western church architecture, glowing supernatural effects, or any Adventist/denominational logo.

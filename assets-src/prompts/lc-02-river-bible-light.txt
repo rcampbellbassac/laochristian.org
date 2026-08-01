@@ -1,0 +1,9 @@
+The visual direction is "Quiet Lao Modernism": contemporary editorial minimalism, disciplined grid structure, Japanese restraint and negative space, mid-century shape economy, and refined layered-paper illustration in a soft gouache/watercolor style, without imitating any specific designer. Peaceful, culturally Lao, Scripture-centered, handcrafted but not rustic, modern but not technological, distinctly Lao without resembling tourism advertising.
+
+Use a limited palette: rice-paper background #F6F1E7, deep Mekong green #173B38, forest teal #2E675E, muted sage #789B83, dusty river blue #88A7B0, champa gold #E5B957, and soft clay #B86F50. Warm ivory should be the dominant field. Add only faint paper grain and delicate layer shadows -- no glossy 3D rendering, glassmorphism, neon colors, or excessive gradients.
+
+Scene: an open Bible resting naturally beside a quiet river bend on a terraced Lao hillside. Morning light crosses the pages. Faint terrace contours flow outward from the book like lines of Scripture. A branch of white-and-gold dok champa flowers leans in from the lower-left edge. Limestone karst mountains remain restrained and misty in the distance, with a winding river catching the morning light.
+
+Composition: wide landscape orientation, generous negative space in the sky/upper area for later text overlay, the Bible and champa positioned in the lower-left third, mountains and river filling the right two-thirds. No text, no logos, no UI elements of any kind rendered in the image.
+
+Avoid entirely: temples, stupas, monks, Buddha imagery, elephants or tourism imagery, the Lao national flag, photorealistic stock-photo look, gold ornamental borders, oversized crosses, floating pages, Western church architecture, glowing supernatural effects, or any Adventist/denominational logo.
