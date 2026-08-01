@@ -16,6 +16,20 @@ over the lazy dog.
 ຂໍ້ຄວາມພາສາລາວ (Lao body text) ໃຊ້ Noto Sans Lao Looped ທີ່ 18–20px ແລະໄລຍະຫ່າງແຖວກວ້າງກວ່າ
 ເພື່ອໃຫ້ອ່ານງ່າຍ.
 
+## Lao font bake-off
+
+Use the "文A" picker in the header to preview each candidate Lao font (all 8 offered by
+the lao-christian-app project) against the same sample text — headings and body both
+switch together so it's a fair side-by-side look. Spelling here intentionally keeps the
+traditional ຣ (R) in sacred terms rather than the modern government-simplified spelling
+— see `docs/_lao-style-guide.md`.
+
+# ພຣະເຈົ້າ ແລະ ພຣະເຢຊູຄຣິດ
+
+ພຣະເຈົ້າຊົງຮັກໂລກຫຼາຍ ຈົນໄດ້ຊົງໂຜດປະທານພຣະບຸດອົງດຽວຂອງພຣະອົງ ເພື່ອທຸກຄົນທີ່ວາງໃຈໃນພຣະບຸດນັ້ນ
+ຈະບໍ່ພິນາດ ແຕ່ມີຊີວິດນິລັນດອນ. ຂໍ້ຄວາມນີ້ໃຊ້ສະລະ, ພະຍັນຊະນະ, ວັນນະຍຸດ ແລະຕົວເລກ (໑໒໓) ທີ່
+ຫຼາກຫຼາຍ ເພື່ອທົດສອບການສະແດງຜົນຂອງແຕ່ລະຟອນ.
+
 ## Color swatches
 
 <div class="lc-card" style="background:var(--lc-paper); color:var(--lc-ink);">rice-paper #F6F1E7 / ink #173B38</div>

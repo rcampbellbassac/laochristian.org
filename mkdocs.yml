@@ -36,6 +36,9 @@ theme:
 extra_css:
   - assets/stylesheets/extra.css
 
+extra_javascript:
+  - assets/javascripts/lao-font-picker.js
+
 plugins:
   - search
   - i18n:
