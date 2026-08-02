@@ -39,7 +39,10 @@ jobs:
         run: pip install -r requirements.txt
 
       - name: Build
-        run: mkdocs build --strict --site-dir _site
+        run: |
+          mkdocs build --strict --site-dir _site
+          cp _site/sitemap.xml _site/lo/sitemap.xml
+          cp _site/sitemap.xml.gz _site/lo/sitemap.xml.gz
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
