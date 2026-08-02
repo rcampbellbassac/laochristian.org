@@ -177,32 +177,31 @@ img.lc-scheme-dark {
 
 /* Full-width page hero (overrides/main.html `tabs` block, driven by
    `hero_image` front matter). Sits before <main>, outside the sidebar
-   grid, so it spans the full viewport width like the homepage hero. */
+   grid, so it spans the full viewport width like the homepage hero.
+   Uses the source art's own aspect ratio (1792x1024) rather than a short
+   fixed height, so the composition -- deliberately built with the subject
+   low in the frame and sky/negative space up top -- isn't cropped away.
+   Hard edge into the content below (no fade), matching how the homepage's
+   own hero cuts cleanly into the next section. */
 .lc-page-hero {
   position: relative;
   width: 100%;
-  height: clamp(220px, 30vw, 420px);
+  aspect-ratio: 1792 / 1024;
+  max-height: 70vh;
   overflow: hidden;
+  border-bottom: 1px solid color-mix(in srgb, var(--lc-ink), transparent 88%);
+}
+
+[data-md-color-scheme="slate"] .lc-page-hero {
+  border-bottom-color: color-mix(in srgb, var(--lc-paper), transparent 88%);
 }
 
 .lc-page-hero img {
   width: 100%;
   height: 100%;
   object-fit: cover;
-  object-position: 50% 65%;
+  object-position: center;
   border-radius: 0;
-}
-
-.lc-page-hero::after {
-  content: "";
-  position: absolute;
-  inset: 0;
-  background: linear-gradient(to bottom, transparent 70%, var(--lc-paper) 100%);
-  pointer-events: none;
-}
-
-[data-md-color-scheme="slate"] .lc-page-hero::after {
-  background: linear-gradient(to bottom, transparent 70%, var(--lc-dark-bg) 100%);
 }
 
 /* ---- Paper grain (procedural SVG noise, not a generated image: seamless
