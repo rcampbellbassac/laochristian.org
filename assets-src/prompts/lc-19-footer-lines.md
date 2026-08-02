@@ -19,8 +19,8 @@ Process:
 Separate light and dark passes (dark used gold/sage/teal on deep-night-blue
 instead of green/teal/sage on rice-paper).
 
-Used for: sitewide footer background. Only the dark variant actually ships
-(`footer-lines-dark.webp`) -- the footer background is always the dark ink
-color in both site color schemes, so the light variant
-(`footer-lines-light.webp`) is unused for now but kept as a candidate for a
-light-background section divider elsewhere.
+Historical experiment only. Neither variant ships now: both were retired
+because the ribbon treatment was too short and competed with footer text.
+The sitewide footer instead uses the taller, quieter
+`docs/assets/img/footer-textile-v2.webp` artwork documented in
+`DESIGN-HANDOFF.md`.
