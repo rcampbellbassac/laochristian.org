@@ -9,18 +9,24 @@ Scripture and worship freely available in Lao.
 
 ## Online giving
 
-Seventh-day Adventist churches accept tithe and offerings online through
-[AdventistGiving](https://adventistgiving.org/), the denomination's official
-giving platform. Search for **Lao Holland** to give directly to our
-congregation.
+For now, gifts for the Lao Holland ministry are received through our mother
+church, **Holland Seventh-day Adventist Church**, on the denomination's
+official AdventistGiving platform.
 
-<!-- TODO: confirm the exact AdventistGiving church listing/link and swap the
-     line above for a direct link once verified -->
+1. Open the **[Holland SDA Church giving page](https://adventistgiving.org/donate/ANFFLQ)**.
+2. Designate your gift to the line item **LAO Combined Budget**.
+
+Please do not use the **Lao Holland SDA Group** search result as a donation
+destination. That listing currently opens a church-enrollment request rather
+than a giving form.
+
+If you need help directing a gift to the Lao ministry, email
+[laohollandsda@gmail.com](mailto:laohollandsda@gmail.com) before giving.
 
 ## Other ways to give
 
-Prefer to give in person or by mail? Contact us at
-[laohollandsda@gmail.com](mailto:laohollandsda@gmail.com) or
+Prefer to give in person? Contact us at
+[laohollandsda@gmail.com](mailto:laohollandsda@gmail.com), call
 [(616) 294-1171](tel:+16162941171), or visit us during
 [Sabbath worship](events.md).
 
