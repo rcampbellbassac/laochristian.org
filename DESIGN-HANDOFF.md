@@ -243,13 +243,12 @@ legitimately broken: the lines were bold/saturated enough that wherever text
 landed on top of them, contrast became unreliable — a gold line ran directly
 through a sentence and made it hard to read.
 
-**Fix, worth copying as a general pattern**: decorative motifs belong in
-their **own strip, never behind body text**. The current asset,
-`docs/assets/img/footer-textile.webp`, is a wide, low-contrast illustration
-with ornament concentrated at the edges and a calm center. It uses the
-site's ink, sage, river-blue, and restrained gold palette. CSS crops it with
-`background-size: cover`, while all footer copy remains below on the solid
-ink surface for reliable contrast at every viewport size.
+The current asset, `docs/assets/img/footer-textile-v2.webp`, is a tall 3:2,
+low-contrast illustration with ornament concentrated at the edges and a calm
+center. It uses the site's ink, sage, river-blue, and restrained gold palette.
+CSS applies it across the full footer with `background-size: cover`, anchors
+it to the bottom, and adds a dark ink wash above the image, preserving reliable
+contrast for all footer copy at every viewport size.
 
 ## Reference
 

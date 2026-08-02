@@ -176,13 +176,10 @@ img.lc-scheme-dark {
 }
 
 /* Full-width page hero (overrides/main.html `tabs` block, driven by
-   `hero_image` front matter). Sits before <main>, outside the sidebar
-   grid, so it spans the full viewport width like the homepage hero.
-   Uses the source art's own aspect ratio (1792x1024) rather than a short
-   fixed height, so the composition -- deliberately built with the subject
-   low in the frame and sky/negative space up top -- isn't cropped away.
-   Hard edge into the content below (no fade), matching how the homepage's
-   own hero cuts cleanly into the next section. */
+   `hero_image` front matter). Sits before <main>, outside the sidebar grid,
+   so it spans the full viewport width like the homepage hero. Every image
+   is bottom-anchored: responsive cropping removes the top first while the
+   lower edge always remains aligned with the bottom of its container. */
 .lc-page-hero {
   position: relative;
   width: 100%;
@@ -200,7 +197,7 @@ img.lc-scheme-dark {
   width: 100%;
   height: 100%;
   object-fit: cover;
-  object-position: center;
+  object-position: center bottom;
   border-radius: 0;
 }
 
@@ -547,7 +544,7 @@ html[data-lao-font] .md-typeset h3 {
     ),
     var(--lc-hero-img-light);
   background-size: cover;
-  background-position: center right;
+  background-position: right bottom;
   border-bottom: 1px solid color-mix(in srgb, var(--lc-ink), transparent 88%);
 }
 
@@ -790,24 +787,16 @@ html[data-lao-font] .md-typeset h3 {
 }
 
 /* ---- Site-wide footer (overrides/partials/footer.html) ---- */
-/* Plain surface (the .lc-grain class already applied in the template adds
-   the same subtle paper texture used elsewhere) -- text sits directly on
-   this, so it stays legible regardless of viewport size. The decorative
-   textile motif lives in .lc-footer-ribbon below, in its own strip above
-   the text rather than behind it. */
+/* Full-footer Lao textile artwork. A dark ink wash preserves dependable text
+   contrast while allowing the edge ornament and Mekong linework to remain
+   visible; .lc-grain adds the same subtle paper texture used elsewhere. */
 .lc-footer {
-  padding: 0 1.5rem 1.5rem;
-}
-
-/* Restrained Lao textile and Mekong-inspired divider band. It sits above all
-   footer text (never behind it), keeping the center calm and the footer copy
-   on a solid, reliably high-contrast surface. */
-.lc-footer-ribbon {
-  height: clamp(72px, 8vw, 112px);
-  margin-bottom: 1.75rem;
-  background-image: url("../img/footer-textile.webp");
+  padding: 2.75rem 1.5rem 1.5rem;
+  background-image:
+    linear-gradient(rgba(16, 43, 52, 0.68), rgba(16, 43, 52, 0.78)),
+    url("../img/footer-textile-v2.webp");
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: center bottom;
   background-size: cover;
 }
 
