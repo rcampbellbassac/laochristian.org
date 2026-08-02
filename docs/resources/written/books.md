@@ -7,7 +7,7 @@ A growing library of Lao-language books, including Bible story collections
 and health/wellness titles consistent with Adventist teaching on whole-person
 health.
 
-Available now in the **[LaoChristian.org app](../../apps.md)**:
+Available now in the **[LaoChristian.org app](https://www.laochristian.org/apps/)**:
 
 - **Lao Bible Stories**
 - **Lao Health Books**

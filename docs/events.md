@@ -15,8 +15,9 @@ hero_image: events
 ## Upcoming
 
 We don't have any events listed yet — check back soon, or follow us on
-[Facebook](https://www.facebook.com/sklgospel) and
-[YouTube](https://www.youtube.com/@Laochristiandotorg) for announcements in
+[TikTok](https://www.tiktok.com/@siengkhaenlaogospel),
+[Instagram](https://www.instagram.com/sklgospel), and
+[YouTube](https://www.youtube.com/@SiengKhaenLaoGospel) for announcements in
 the meantime.
 
 ## Regular services
@@ -26,7 +27,7 @@ Saturday:
 
 - **Sabbath School / morning study:** 10:00–11:00 a.m. (Eastern Time)
 - **Main service:** 11:00 a.m.–12:30 p.m. (Eastern Time)
-- In person at 3984 N 168th Ave, Holland, MI 49424, or by [livestream](live.md)
+- In person at 3984 N 168th Ave, Holland, MI 49424, or through our [YouTube livestreams](https://www.youtube.com/@LaoHollandSDAChurch/streams)
 
 Have a special event you'd like listed here? Reach out via the
 [Contact page](contact.md).

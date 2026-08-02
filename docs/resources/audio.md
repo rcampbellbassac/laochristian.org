@@ -5,8 +5,8 @@ hero_image: audio
 
 Spoken-word recordings — sermons, readings, and music — in Lao.
 
-- **[Sieng Khaen Lao](songs.md)** for music
-- **[YouTube](https://www.youtube.com/@Laochristiandotorg)** for recorded services and songs
+- **[Sieng Khaen Lao](songs.md)** and its **[YouTube channel](https://www.youtube.com/@SiengKhaenLaoGospel)** for music
+- **[Lao Holland SDA Church on YouTube](https://www.youtube.com/@LaoHollandSDAChurch)** for recorded services
 
 <!-- TODO: add a podcast/audio-only feed here once one exists -->
 

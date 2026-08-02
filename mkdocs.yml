@@ -73,7 +73,7 @@ nav:
   - About: about.md
   - Resources:
       - resources/index.md
-      - Lao Bible: resources/bible.md
+      - Lao Bible: https://www.laochristian.org/apps/
       - Sieng Khaen Lao (Songs): resources/songs.md
       - Written:
           - resources/written/index.md
@@ -83,7 +83,7 @@ nav:
       - Audio: resources/audio.md
   - Events: events.md
   - Give: give.md
-  - Apps: apps.md
+  - Apps: https://www.laochristian.org/apps/
   - Live: live.md
   - Contact: contact.md
   - Privacy: privacy.md

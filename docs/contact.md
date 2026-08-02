@@ -22,16 +22,18 @@ LaoChristian.org is a ministry of the Lao Holland Seventh-day Adventist Church.
 
 **Online**
 
-- [Facebook](https://www.facebook.com/lao.holland.sda.church)
-- [YouTube](https://www.youtube.com/@LaoHollandSDAChurch)
-- [Sieng Khaen Lao on Facebook](https://www.facebook.com/sklgospel)
-- [Sieng Khaen Lao on YouTube](https://www.youtube.com/@Laochristiandotorg)
+- [Lao Holland SDA Church on Facebook](https://www.facebook.com/lao.holland.sda.church)
+- [Lao Holland SDA Church on YouTube](https://www.youtube.com/@LaoHollandSDAChurch)
+- [Lao Holland SDA Church livestreams](https://www.youtube.com/@LaoHollandSDAChurch/streams)
+- [Sieng Khaen Lao on YouTube](https://www.youtube.com/@SiengKhaenLaoGospel)
+- [Sieng Khaen Lao on TikTok](https://www.tiktok.com/@siengkhaenlaogospel)
+- [Sieng Khaen Lao on Instagram](https://www.instagram.com/sklgospel)
 
 ## Sabbath worship
 
 - **Sabbath School / morning study:** 10:00–11:00 a.m. (Eastern Time)
 - **Main service:** 11:00 a.m.–12:30 p.m. (Eastern Time)
-- Every Saturday, in person and by [livestream](live.md)
+- Every Saturday, in person or through our [YouTube livestreams](https://www.youtube.com/@LaoHollandSDAChurch/streams)
 
 Have feedback on the website or app, a correction, or a resource you'd like
 to contribute? Reach out any of the ways above — we'd love to hear from you.

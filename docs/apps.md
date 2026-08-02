@@ -7,11 +7,7 @@ The LaoChristian.org app puts the Lao Bible, Sieng Khaen Lao songs, and our
 written resources in one place — built to work offline, with adjustable text
 size and a choice of Lao fonts.
 
-**[Open the app →](https://rcampbellbassac.github.io/lao-christian-app/)**
-
-<!-- TODO: update this link to apps.laochristian.org once that custom domain
-     cutover happens (see the lao-christian-app repo's own README for that
-     runbook) -->
+**[Open the app →](https://www.laochristian.org/apps/)**
 
 ## What's inside
 
