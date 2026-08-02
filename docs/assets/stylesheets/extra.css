@@ -529,16 +529,37 @@ html[data-lao-font] .md-typeset h3 {
 }
 
 /* ---- Hero ---- */
+/* Soft directional scrim (first background layer = drawn on top) fading
+   from paper-color at the left edge to fully transparent by ~55% width,
+   so the text column sits on a guaranteed-legible wash while the
+   mountains/river on the right stay completely uncovered. Needed because
+   the photographic-style art varies in brightness (sky vs. foliage vs.
+   water), so a flat text color alone isn't reliably readable everywhere
+   it might land. */
 .lc-hero {
   position: relative;
-  background-image: var(--lc-hero-img-light);
+  background-image:
+    linear-gradient(
+      to right,
+      color-mix(in srgb, var(--lc-paper), transparent 8%) 0%,
+      color-mix(in srgb, var(--lc-paper), transparent 45%) 30%,
+      transparent 56%
+    ),
+    var(--lc-hero-img-light);
   background-size: cover;
   background-position: center right;
   border-bottom: 1px solid color-mix(in srgb, var(--lc-ink), transparent 88%);
 }
 
 [data-md-color-scheme="slate"] .lc-hero {
-  background-image: var(--lc-hero-img-dark);
+  background-image:
+    linear-gradient(
+      to right,
+      color-mix(in srgb, var(--lc-dark-bg), transparent 5%) 0%,
+      color-mix(in srgb, var(--lc-dark-bg), transparent 40%) 30%,
+      transparent 56%
+    ),
+    var(--lc-hero-img-dark);
   border-bottom-color: color-mix(in srgb, var(--lc-paper), transparent 88%);
 }
 
@@ -557,24 +578,12 @@ html[data-lao-font] .md-typeset h3 {
   font-family: var(--lc-font-serif);
   font-size: var(--lc-text-hero);
   line-height: 1.1;
-  margin: 0.4rem 0 0;
+  margin: 0 0 0.6rem;
   color: var(--lc-ink);
 }
 
 [data-md-color-scheme="slate"] .lc-hero-text .lc-lao {
   color: var(--lc-paper);
-}
-
-.lc-hero-text .lc-wordmark {
-  font-family: var(--lc-font-serif);
-  font-size: clamp(1.25rem, 1rem + 1vw, 1.75rem);
-  font-weight: 600;
-  margin: 0.2rem 0 1.1rem;
-  color: color-mix(in srgb, var(--lc-ink), transparent 20%);
-}
-
-[data-md-color-scheme="slate"] .lc-hero-text .lc-wordmark {
-  color: color-mix(in srgb, var(--lc-paper), transparent 15%);
 }
 
 .lc-hero-text p {
