@@ -232,8 +232,8 @@ same restrained paper-cut style, used at small sizes next to list items and
 contact info. See `overrides/home.html` and `docs/about.md` for example
 markup.
 
-**Footer divider pattern**: see §7 below — worth reading even though it's
-framed as a bug-fix story, because the lesson generalizes.
+**Footer divider pattern**: see §7 below. The current treatment is a quiet,
+wide textile illustration with Lao weaving, Mekong, and champa influences.
 
 ## 7. Footer divider — a cautionary tale worth repeating here
 
@@ -243,19 +243,13 @@ legitimately broken: the lines were bold/saturated enough that wherever text
 landed on top of them, contrast became unreliable — a gold line ran directly
 through a sentence and made it hard to read.
 
-**Fix, worth copying as a general pattern**: decorative line/wave motifs
-belong in their **own thin strip, never behind body text**. Rebuilt as
-`docs/assets/img/footer-ribbon.svg` — a small (200×120 viewBox) **exact-period
-sine-wave tile** built from sampled trigonometry (not a bezier
-approximation), so the left/right edges match pixel-for-pixel and it tiles
-via `background-repeat: repeat-x` with zero visible seam at any width. An
-AI-repainted "textured" version of this same tile was tried first — a
-pixel-diff check showed the image-edit model doesn't preserve edge-to-edge
-continuity precisely enough for seamless tiling, so that version was
-discarded for the plain vector tile instead. If the app wants a similar
-accent anywhere, this SVG is directly reusable, or regenerate using the same
-method (`assets-src/prompts/lc-19-footer-lines.md` has it written up in
-full) rather than asking an image model for a seamless raster tile.
+**Fix, worth copying as a general pattern**: decorative motifs belong in
+their **own strip, never behind body text**. The current asset,
+`docs/assets/img/footer-textile.webp`, is a wide, low-contrast illustration
+with ornament concentrated at the edges and a calm center. It uses the
+site's ink, sage, river-blue, and restrained gold palette. CSS crops it with
+`background-size: cover`, while all footer copy remains below on the solid
+ink surface for reliable contrast at every viewport size.
 
 ## Reference
 
