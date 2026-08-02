@@ -14,11 +14,10 @@ hero_image: events
 
 ## Upcoming
 
-We don't have any events listed yet — check back soon, or follow us on
-[TikTok](https://www.tiktok.com/@siengkhaenlaogospel),
-[Instagram](https://www.instagram.com/sklgospel), and
-[YouTube](https://www.youtube.com/@SiengKhaenLaoGospel) for announcements in
-the meantime.
+We're working on bringing event updates to this page. For now, the
+[Lao Holland SDA Church Facebook page](https://www.facebook.com/lao.holland.sda.church)
+is the authoritative and most reliable source for event announcements and
+schedule updates.
 
 ## Regular services
 
