@@ -52,6 +52,25 @@ plugins:
         - locale: lo
           name: ລາວ
           build: true
+          site_description: ພຣະຄຳພີ, ການນະມັດສະການ, ແລະ ຊັບພະຍາກອນຄຣິສຕຽນສຳລັບຊຸມຊົນລາວທຸກແຫ່ງ.
+          nav_translations:
+            Home: ໜ້າຫຼັກ
+            About: ກ່ຽວກັບ
+            Resources: ຊັບພະຍາກອນ
+            Lao Bible: ພຣະຄຳພີພາສາລາວ
+            Sieng Khaen Lao (Songs): ສຽງແຄນລາວ (ເພງ)
+            Written: ເນື້ອຫາຂຽນ
+            Sermons: ຄຳເທດສະໜາ
+            Studies: ບົດຮຽນ
+            Books: ປຶ້ມ
+            Audio: ສຽງ
+            Events: ກິດຈະກຳ
+            Give: ຖວາຍ
+            Apps: ແອັບ
+            Live: ຖ່າຍທອດສົດ
+            Contact: ຕິດຕໍ່
+            Privacy: ຄວາມເປັນສ່ວນຕົວ
+            Cookies: ຄຸກກີ
   - git-revision-date-localized:
       enable_creation_date: false
   - minify:
@@ -73,7 +92,7 @@ nav:
   - About: about.md
   - Resources:
       - resources/index.md
-      - Lao Bible: https://www.laochristian.org/apps/
+      - Lao Bible: https://apps.laochristian.org/
       - Sieng Khaen Lao (Songs): resources/songs.md
       - Written:
           - resources/written/index.md
@@ -83,7 +102,7 @@ nav:
       - Audio: resources/audio.md
   - Events: events.md
   - Give: give.md
-  - Apps: https://www.laochristian.org/apps/
+  - Apps: apps.md
   - Live: live.md
   - Contact: contact.md
   - Privacy: privacy.md

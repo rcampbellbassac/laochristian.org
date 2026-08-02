@@ -15,4 +15,4 @@ who wants to sing along.
 - **[Follow on Instagram](https://www.instagram.com/sklgospel)**
 
 Song lyrics and sheet music (where available) can also be found in the
-**[LaoChristian.org app](https://www.laochristian.org/apps/)** under **Lao Songs**.
+**[LaoChristian.org app](https://apps.laochristian.org/)** under **Lao Songs**.

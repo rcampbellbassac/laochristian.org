@@ -3,18 +3,24 @@ hero_image: apps
 ---
 # Apps
 
-The LaoChristian.org app puts the Lao Bible, Sieng Khaen Lao songs, and our
-written resources in one place — built to work offline, with adjustable text
-size and a choice of Lao fonts.
+The LaoChristian.org Apps platform brings Lao Christian reading, worship,
+study, and presentation resources together in one bilingual, installable web
+app. It is designed for comfortable Lao reading and dependable use on slower
+or intermittent connections.
 
-**[Open the app →](https://www.laochristian.org/apps/)**
+**[Open the Apps platform →](https://apps.laochristian.org/)**
 
-## What's inside
+[![The LaoChristian.org Apps platform home screen](assets/img/apps-platform-home.webp){ .lc-app-screenshot }](https://apps.laochristian.org/)
 
-- **Lao Bible** — read and study the Word
-- **Lao Songs** — hymns and worship songs from Sieng Khaen Lao
-- **Christian Resources** — Bible studies, books, and more
-- **Lao Fonts & Language** — a choice of fonts for comfortable reading
+## What you can use
 
-The app works as a Progressive Web App (PWA): open it in any modern browser,
-and you can add it to your home screen for quick access, even offline.
+- **The Lao Bible** for reading and study
+- **Sieng Khaen Lao worship songs**
+- **Bible studies, Bible stories, health resources, and Christian books**
+- **Search, adjustable text size, themes, and a choice of Lao reading fonts**
+- **Presentation and export tools** for sharing material with a group
+
+The platform is a Progressive Web App (PWA). You can add it to your home
+screen, and it caches downloaded content locally for offline-friendly reading.
+It also checks periodically for updated material while preserving cached
+content when a connection is unavailable.

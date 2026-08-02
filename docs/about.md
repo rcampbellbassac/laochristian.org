@@ -20,7 +20,7 @@ moving here, making LaoChristian.org the new home for those resources.
 
 <p class="lc-list-icon-row">
 <svg class="lc-inline-icon" viewBox="0 0 48 48" fill="none" aria-hidden="true"><path d="M24 12c-3.5-2.4-8-3.5-13-3.5v25c5 0 9.5 1.1 13 3.5V12z" fill="currentColor" opacity="0.9"/><path d="M24 12c3.5-2.4 8-3.5 13-3.5v25c-5 0-9.5 1.1-13 3.5V12z" fill="currentColor" opacity="0.65"/></svg>
-<strong><a href="https://www.laochristian.org/apps/">The Lao Bible</a></strong> — the full text of Scripture in Lao, free to read online or offline
+<strong><a href="https://apps.laochristian.org/">The Lao Bible</a></strong> — the full text of Scripture in Lao, free to read online or offline
 </p>
 
 <p class="lc-list-icon-row">
@@ -35,7 +35,7 @@ moving here, making LaoChristian.org the new home for those resources.
 
 <p class="lc-list-icon-row">
 <svg class="lc-inline-icon" viewBox="0 0 48 48" fill="none" aria-hidden="true"><path d="M14 20h20a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H14a2 2 0 0 1-2-2V22a2 2 0 0 1 2-2z" fill="currentColor" opacity="0.85"/><path d="M18 20v-3a6 6 0 0 1 12 0v3" stroke="currentColor" stroke-width="2.4" fill="none"/></svg>
-<strong><a href="https://www.laochristian.org/apps/">The LaoChristian.org app</a></strong> — the same resources, packaged for offline reading
+<strong><a href="https://apps.laochristian.org/">The LaoChristian.org app</a></strong> — the same resources, packaged for offline reading
 </p>
 
 ## Our church

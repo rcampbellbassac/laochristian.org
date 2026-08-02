@@ -6,7 +6,7 @@ hero_image: hero
 The full text of Scripture in Lao, free to read online or offline.
 
 For the actual reading experience — searchable, works offline, adjustable
-text size — open the **[LaoChristian.org app](https://www.laochristian.org/apps/)** and choose
+text size — open the **[LaoChristian.org app](https://apps.laochristian.org/)** and choose
 **Lao Bible**.
 
 <!-- TODO: which translation(s)? worth naming here for credibility -->

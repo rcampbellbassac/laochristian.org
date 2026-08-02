@@ -8,6 +8,7 @@
 {% endblock %}
 
 {% block tabs %}
+  {% set lc_is_lao = page.file.locale == "lo" %}
   {{ super() }}
   <div class="lc-home">
 
@@ -16,17 +17,17 @@
       <div class="lc-hero-inner">
         <div class="lc-hero-text">
           <h1 class="lc-lao" lang="lo">ລາວຄຣິສຕຽນ</h1>
-          <p>Scripture, worship, and Christian resources for Lao communities everywhere.</p>
-          <p><strong>SEA-SDA.org is moving here.</strong> Welcome to its new home at LaoChristian.org.</p>
+          <p>{{ "ຊັບພະຍາກອນພຣະຄຳພີ, ການນະມັດສະການ, ແລະ ຄຣິສຕຽນ ສຳລັບຊຸມຊົນລາວທຸກແຫ່ງຫົນ." if lc_is_lao else "Scripture, worship, and Christian resources for Lao communities everywhere." }}</p>
+          <p><strong>{{ "SEA-SDA.org ກຳລັງເຄື່ອນຍ້າຍມາທີ່ນີ້." if lc_is_lao else "SEA-SDA.org is moving here." }}</strong> {{ "ຍິນດີຕ້ອນຮັບສູ່ບ້ານຫຼັງໃໝ່ທີ່ LaoChristian.org." if lc_is_lao else "Welcome to its new home at LaoChristian.org." }}</p>
           <div class="lc-hero-actions">
-            <a class="lc-btn lc-btn-primary" href="{{ 'resources/' | url }}">Explore Resources</a>
-            <a class="lc-btn lc-btn-secondary" href="https://www.laochristian.org/apps/">Open Apps</a>
+            <a class="lc-btn lc-btn-primary" href="{{ 'resources/' | url }}">{{ "ສຳຫຼວດຊັບພະຍາກອນ" if lc_is_lao else "Explore Resources" }}</a>
+            <a class="lc-btn lc-btn-secondary" href="https://apps.laochristian.org/">{{ "ເປີດແອັບ" if lc_is_lao else "Open Apps" }}</a>
           </div>
         </div>
       </div>
       <div class="lc-sabbath-col">
         <div class="lc-adventist-slot">
-          <img src="{{ 'assets/img/adventist-symbol.svg' | url }}" alt="Seventh-day Adventist Church">
+          <img src="{{ 'assets/img/adventist-symbol.svg' | url }}" alt="{{ 'ໂບດເຊເວັນເດແອດເວນຕິສ' if lc_is_lao else 'Seventh-day Adventist Church' }}">
         </div>
       </div>
     </section>
@@ -34,19 +35,19 @@
     <!-- Resource gateway -->
     <section class="lc-section">
       <div class="lc-section-inner">
-        <p class="lc-eyebrow">Start here</p>
-        <h2>Everything you need to grow in faith, in Lao</h2>
+        <p class="lc-eyebrow">{{ "ເລີ່ມຕົ້ນທີ່ນີ້" if lc_is_lao else "Start here" }}</p>
+        <h2>{{ "ທຸກຢ່າງທີ່ທ່ານຕ້ອງການເພື່ອເຕີບໂຕໃນຄວາມເຊື່ອ, ເປັນພາສາລາວ" if lc_is_lao else "Everything you need to grow in faith, in Lao" }}</h2>
         <div class="lc-resource-grid">
 
-          <a class="lc-card lc-resource-card" href="https://www.laochristian.org/apps/">
+          <a class="lc-card lc-resource-card" href="https://apps.laochristian.org/">
             <svg class="lc-icon" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
               <path d="M24 12c-3.5-2.4-8-3.5-13-3.5v25c5 0 9.5 1.1 13 3.5V12z" fill="currentColor" opacity="0.9"/>
               <path d="M24 12c3.5-2.4 8-3.5 13-3.5v25c-5 0-9.5 1.1-13 3.5V12z" fill="currentColor" opacity="0.65"/>
               <path d="M24 12v25" stroke="var(--lc-paper)" stroke-width="1.2" opacity="0.6"/>
             </svg>
-            <h3>Read the Lao Bible</h3>
-            <p>The full text of Scripture in Lao — free to read online or offline.</p>
-            <span class="lc-card-link">Open the Bible →</span>
+            <h3>{{ "ອ່ານຄຳພີໄບເບິນພາສາລາວ" if lc_is_lao else "Read the Lao Bible" }}</h3>
+            <p>{{ "ພຣະຄຳພີສະບັບເຕັມເປັນພາສາລາວ — ອ່ານໄດ້ຟຣີທັງອອນລາຍ ແລະ ອອບລາຍ." if lc_is_lao else "The full text of Scripture in Lao — free to read online or offline." }}</p>
+            <span class="lc-card-link">{{ "ເປີດຄຳພີໄບເບິນ →" if lc_is_lao else "Open the Bible →" }}</span>
           </a>
 
           <a class="lc-card lc-resource-card" href="{{ 'resources/songs/' | url }}">
@@ -57,9 +58,9 @@
               <circle cx="34" cy="32" r="4.5" fill="currentColor"/>
               <path d="M38.5 32V11l-4 1.3" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/>
             </svg>
-            <h3>Sing and Worship</h3>
-            <p>Hymns, gospel songs, and the Sieng Khaen Lao music ministry.</p>
-            <span class="lc-card-link">Listen and sing →</span>
+            <h3>{{ "ຮ້ອງເພງ ແລະ ນະມັດສະການ" if lc_is_lao else "Sing and Worship" }}</h3>
+            <p>{{ "ເພງສວດ, ເພງພຣະກິດຕິຄຸນ, ແລະ ດົນຕີຮັບໃຊ້ສຽງແຄນລາວ." if lc_is_lao else "Hymns, gospel songs, and the Sieng Khaen Lao music ministry." }}</p>
+            <span class="lc-card-link">{{ "ຟັງ ແລະ ຮ້ອງ →" if lc_is_lao else "Listen and sing →" }}</span>
           </a>
 
           <a class="lc-card lc-resource-card" href="{{ 'resources/written/' | url }}">
@@ -69,9 +70,9 @@
               <rect x="31" y="12" width="9" height="26" rx="1.5" fill="currentColor"/>
               <path d="M23 14h2M23 18h2" stroke="var(--lc-paper)" stroke-width="1.1" opacity="0.7"/>
             </svg>
-            <h3>Explore Christian Resources</h3>
-            <p>Sermons, Bible studies, and books for growing in faith.</p>
-            <span class="lc-card-link">Start reading →</span>
+            <h3>{{ "ສຳຫຼວດຊັບພະຍາກອນຄຣິສຕຽນ" if lc_is_lao else "Explore Christian Resources" }}</h3>
+            <p>{{ "ຄຳເທດສະໜາ, ການສຶກສາພຣະຄຳພີ, ແລະ ປຶ້ມສຳລັບການເຕີບໂຕໃນຄວາມເຊື່ອ." if lc_is_lao else "Sermons, Bible studies, and books for growing in faith." }}</p>
+            <span class="lc-card-link">{{ "ເລີ່ມອ່ານ →" if lc_is_lao else "Start reading →" }}</span>
           </a>
 
         </div>
@@ -81,14 +82,14 @@
     <!-- Sieng Khaen Lao -->
     <section class="lc-section lc-worship">
       <div class="lc-section-inner">
-        <p class="lc-eyebrow">Music ministry</p>
+        <p class="lc-eyebrow">{{ "ພັນທະກິດດົນຕີ" if lc_is_lao else "Music ministry" }}</p>
         <h2>Sieng Khaen Lao</h2>
-        <p lang="lo">ສຽງແຄນລາວ — the sound of the Lao khaen, carrying hymns and gospel songs to Lao Christian communities around the world.</p>
+        <p lang="lo">ສຽງແຄນລາວ — {{ "ສຽງຂອງແຄນລາວ, ນຳເອົາເພງສວດ ແລະ ເພງພຣະກິດຕິຄຸນໄປສູ່ຊຸມຊົນຄຣິສຕຽນລາວທົ່ວໂລກ." if lc_is_lao else "the sound of the Lao khaen, carrying hymns and gospel songs to Lao Christian communities around the world." }}</p>
         <div class="lc-hero-actions">
-          <a class="lc-btn lc-btn-primary" href="{{ 'resources/songs/' | url }}">Visit Sieng Khaen Lao</a>
-          <a class="lc-btn lc-btn-secondary" href="https://www.youtube.com/@SiengKhaenLaoGospel">Watch on YouTube</a>
-          <a class="lc-btn lc-btn-secondary" href="https://www.tiktok.com/@siengkhaenlaogospel">Follow on TikTok</a>
-          <a class="lc-btn lc-btn-secondary" href="https://www.instagram.com/sklgospel">Follow on Instagram</a>
+          <a class="lc-btn lc-btn-primary" href="{{ 'resources/songs/' | url }}">{{ "ເຂົ້າຊົມສຽງແຄນລາວ" if lc_is_lao else "Visit Sieng Khaen Lao" }}</a>
+          <a class="lc-btn lc-btn-secondary" href="https://www.youtube.com/@SiengKhaenLaoGospel">{{ "ເບິ່ງໃນ YouTube" if lc_is_lao else "Watch on YouTube" }}</a>
+          <a class="lc-btn lc-btn-secondary" href="https://www.tiktok.com/@siengkhaenlaogospel">{{ "ຕິດຕາມໃນ TikTok" if lc_is_lao else "Follow on TikTok" }}</a>
+          <a class="lc-btn lc-btn-secondary" href="https://www.instagram.com/sklgospel">{{ "ຕິດຕາມໃນ Instagram" if lc_is_lao else "Follow on Instagram" }}</a>
         </div>
       </div>
     </section>
@@ -96,18 +97,15 @@
     <!-- Mission -->
     <section class="lc-section lc-mission lc-grain">
       <div class="lc-section-inner">
-        <p class="lc-eyebrow">Why we're here</p>
-        <h2>Scripture and worship in the heart language</h2>
+        <p class="lc-eyebrow">{{ "ເປັນຫຍັງພວກເຮົາຈຶ່ງຢູ່ທີ່ນີ້" if lc_is_lao else "Why we're here" }}</p>
+        <h2>{{ "ພຣະຄຳພີ ແລະ ການນະມັດສະການໃນພາສາຫົວໃຈ" if lc_is_lao else "Scripture and worship in the heart language" }}</h2>
         <p>
-          We exist to make Scripture, worship, and Christian teaching freely available in the
-          Lao language — for believers in Laos, the diaspora, and anyone seeking to know God in
-          their own heart language. Everything here is free and built to work even on a slow
-          connection.
+          {{ "ພວກເຮົາມີຢູ່ເພື່ອເຮັດໃຫ້ພຣະຄຳພີ, ການນະມັດສະການ, ແລະ ຄຳສອນຄຣິສຕຽນມີໃຫ້ໃຊ້ຢ່າງເສລີເປັນພາສາລາວ — ສຳລັບຜູ້ເຊື່ອໃນລາວ, ຊາວລາວຕ່າງແດນ, ແລະ ທຸກຄົນທີ່ຢາກຮູ້ຈັກພຣະເຈົ້າໃນພາສາຫົວໃຈຂອງຕົນ. ທຸກສິ່ງຢູ່ທີ່ນີ້ແມ່ນຟຣີ ແລະ ສ້າງຂຶ້ນໃຫ້ໃຊ້ໄດ້ແມ່ນແຕ່ໃນການເຊື່ອມຕໍ່ທີ່ຊ້າ." if lc_is_lao else "We exist to make Scripture, worship, and Christian teaching freely available in the Lao language — for believers in Laos, the diaspora, and anyone seeking to know God in their own heart language. Everything here is free and built to work even on a slow connection." }}
         </p>
-        <a class="lc-btn lc-btn-secondary" href="{{ 'about/' | url }}">Learn more about us →</a>
-        <a class="lc-btn lc-btn-secondary" href="https://www.facebook.com/lao.holland.sda.church">Lao Holland SDA Church on Facebook</a>
-        <a class="lc-btn lc-btn-secondary" href="https://www.youtube.com/@LaoHollandSDAChurch">Lao Holland SDA Church on YouTube</a>
-        <a class="lc-btn lc-btn-primary" href="https://www.youtube.com/@LaoHollandSDAChurch/streams">Watch livestreams</a>
+        <a class="lc-btn lc-btn-secondary" href="{{ 'about/' | url }}">{{ "ຮຽນຮູ້ເພີ່ມເຕີມກ່ຽວກັບພວກເຮົາ →" if lc_is_lao else "Learn more about us →" }}</a>
+        <a class="lc-btn lc-btn-secondary" href="https://www.facebook.com/lao.holland.sda.church">{{ "ໂບດ Lao Holland SDA ໃນ Facebook" if lc_is_lao else "Lao Holland SDA Church on Facebook" }}</a>
+        <a class="lc-btn lc-btn-secondary" href="https://www.youtube.com/@LaoHollandSDAChurch">{{ "ໂບດ Lao Holland SDA ໃນ YouTube" if lc_is_lao else "Lao Holland SDA Church on YouTube" }}</a>
+        <a class="lc-btn lc-btn-primary" href="https://www.youtube.com/@LaoHollandSDAChurch/streams">{{ "ເບິ່ງການຖ່າຍທອດສົດ" if lc_is_lao else "Watch livestreams" }}</a>
       </div>
     </section>
 
