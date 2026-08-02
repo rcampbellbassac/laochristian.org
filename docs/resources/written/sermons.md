@@ -1,3 +1,6 @@
+---
+hero_image: sermons
+---
 # Sermons
 
 <!-- TODO: link to actual sermon content/recordings once available -->

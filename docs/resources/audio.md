@@ -1,3 +1,6 @@
+---
+hero_image: audio
+---
 # Audio
 
 Spoken-word recordings — sermons, readings, and music — in Lao.

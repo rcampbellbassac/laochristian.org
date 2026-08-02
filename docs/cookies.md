@@ -1,3 +1,6 @@
+---
+hero_image: cookies
+---
 # Cookie Policy
 
 This is our cookie policy, explaining how we use cookies on our site.

@@ -1,3 +1,6 @@
+---
+hero_image: apps
+---
 # Apps
 
 The LaoChristian.org app puts the Lao Bible, Sieng Khaen Lao songs, and our

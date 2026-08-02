@@ -1,3 +1,6 @@
+---
+hero_image: studies
+---
 # Bible Studies
 
 Structured Bible studies in Lao, for individual or group study.

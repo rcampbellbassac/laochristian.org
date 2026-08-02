@@ -1,3 +1,6 @@
+---
+hero_image: books
+---
 # Books
 
 A growing library of Lao-language books, including Bible story collections

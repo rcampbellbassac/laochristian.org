@@ -1,3 +1,6 @@
+---
+hero_image: resources-hub
+---
 # Resources
 
 Everything here is free to read, in Lao. Pick a place to start:

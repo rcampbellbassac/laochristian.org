@@ -1,3 +1,6 @@
+---
+hero_image: contact
+---
 # Contact
 
 LaoChristian.org is a ministry of the Lao Holland Seventh-day Adventist Church.

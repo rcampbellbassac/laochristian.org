@@ -1,3 +1,6 @@
+---
+hero_image: privacy
+---
 # Privacy Policy
 
 ## Legal Basis for Processing Personal Data (GDPR)

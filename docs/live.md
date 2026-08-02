@@ -1,3 +1,6 @@
+---
+hero_image: live
+---
 # Live
 
 Join Lao Holland Seventh-day Adventist Church for Sabbath worship, live every
