@@ -1,18 +1,15 @@
 ---
 hero_image: books
 ---
-# Books
+# ປຶ້ມ
 
-A growing library of Lao-language books, including Bible story collections
-and health/wellness titles consistent with Adventist teaching on whole-person
-health.
+ຫໍສະໝຸດປຶ້ມພາສາລາວທີ່ກຳລັງເຕີບໃຫຍ່ຂະຫຍາຍຕົວ, ລວມທັງການລວບລວມເລື່ອງລາວໃນຄຳພີໄບເບິນ ແລະ ຫົວຂໍ້ສຸຂະພາບ/ສະຫວັດດີການທີ່ສອດຄ່ອງກັບຄຳສອນຂອງ Adventist ກ່ຽວກັບສຸຂະພາບຂອງຄົນທັງໝົດ.
 
-Available now in the **[LaoChristian.org app](https://apps.laochristian.org/)**:
+ມີໃຫ້ບໍລິການແລ້ວໃນແອັບ **[LaoChristian.org](https://apps.laochristian.org/)**:
 
-- **Lao Bible Stories**
-- **Lao Health Books**
+- **ເລື່ອງລາວໃນຄຳພີໄບເບິນ**
+- **ປຶ້ມສຸຂະພາບລາວ**
 
 <!-- TODO: add more detail per title once we have real cover art/descriptions -->
 
-Looking for a specific book that isn't listed yet? Let us know via the
-[Contact page](../../contact.md).
+ກຳລັງຊອກຫາປຶ້ມສະເພາະທີ່ຍັງບໍ່ທັນໄດ້ລະບຸໄວ້ບໍ? ໃຫ້ພວກເຮົາຮູ້ຜ່ານທາງ [ໜ້າຕິດຕໍ່](../../contact.md).

@@ -1,29 +1,25 @@
 ---
 hero_image: cookies
 ---
-# Cookie Policy
+# ນະໂຍບາຍຄຸກກີ້
 
-This is our cookie policy, explaining how we use cookies on our site.
+ນີ້ແມ່ນນະໂຍບາຍຄຸກກີຂອງພວກເຮົາ, ເຊິ່ງອະທິບາຍວິທີທີ່ພວກເຮົາໃຊ້ຄຸກກີໃນເວັບໄຊທ໌ຂອງພວກເຮົາ.
 
-## What are Cookies?
+## ຄຸກກີ້ແມ່ນຫຍັງ?
 
-Cookies are small text files that are stored on your computer or mobile
-device when you visit a website. They help the website remember your device
-and how you interacted with it, which is useful for a variety of purposes.
+ຄຸກກີ້ແມ່ນໄຟລ໌ຂໍ້ຄວາມຂະໜາດນ້ອຍທີ່ເກັບໄວ້ໃນຄອມພິວເຕີ ຫຼື ອຸປະກອນມືຖືຂອງທ່ານເມື່ອທ່ານເຂົ້າເບິ່ງເວັບໄຊທ໌. ພວກມັນຊ່ວຍໃຫ້ເວັບໄຊທ໌ຈື່ອຸປະກອນຂອງທ່ານ ແລະ ວິທີທີ່ທ່ານພົວພັນກັບມັນ, ເຊິ່ງເປັນປະໂຫຍດສຳລັບຈຸດປະສົງຫຼາຍຢ່າງ.
 
-## How We Use Cookies
+## ວິທີທີ່ພວກເຮົາໃຊ້ຄຸກກີ້
 
-We use cookies to enhance your browsing experience, personalize content, and
-improve site functionality — for example, remembering your light/dark mode
-and Lao font preference.
+ພວກເຮົາໃຊ້ຄຸກກີ້ເພື່ອປັບປຸງປະສົບການການທ່ອງເວັບຂອງທ່ານ, ປັບແຕ່ງເນື້ອຫາໃຫ້ເປັນສ່ວນຕົວ, ແລະ
+ປັບປຸງການເຮັດວຽກຂອງເວັບໄຊທ໌ — ຕົວຢ່າງ, ການຈື່ຈຳໂໝດສະຫວ່າງ/ມືດຂອງທ່ານ
+ແລະ ການຕັ້ງຄ່າຕົວອັກສອນລາວ.
 
-## Your Choices
+## ທາງເລືອກຂອງເຈົ້າ
 
-You can choose to accept or decline cookies. Most web browsers automatically
-accept cookies, but you can usually modify your browser settings to decline
-them if you prefer.
+ທ່ານສາມາດເລືອກທີ່ຈະຍອມຮັບ ຫຼື ປະຕິເສດຄຸກກີ້. ໂປຣແກຣມທ່ອງເວັບສ່ວນໃຫຍ່ຈະຍອມຮັບຄຸກກີ້ໂດຍອັດຕະໂນມັດ, ແຕ່ໂດຍປົກກະຕິແລ້ວທ່ານສາມາດດັດແປງການຕັ້ງຄ່າໂປຣແກຣມທ່ອງເວັບຂອງທ່ານເພື່ອປະຕິເສດຄຸກກີ້ໄດ້ຖ້າທ່ານຕ້ອງການ.
 
-## More Information
+## ຂໍ້ມູນເພີ່ມເຕີມ
 
-For more detailed information about how we protect your data, please see our
-[Privacy Policy](privacy.md).
+ສຳລັບຂໍ້ມູນລະອຽດເພີ່ມເຕີມກ່ຽວກັບວິທີທີ່ພວກເຮົາປົກປ້ອງຂໍ້ມູນຂອງທ່ານ, ກະລຸນາເບິ່ງ
+[ນະໂຍບາຍຄວາມເປັນສ່ວນຕົວ](privacy.md) ຂອງພວກເຮົາ.

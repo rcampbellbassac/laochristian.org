@@ -1,13 +1,12 @@
 ---
 hero_image: study
 ---
-# Written Resources
+# ຊັບພະຍາກອນທີ່ຂຽນໄວ້
 
-Sermons, Bible studies, and books for growing in faith — in Lao.
+ຄຳເທດສະໜາ, ການສຶກສາຄຳພີໄບເບິນ, ແລະ ປຶ້ມສຳລັບການເຕີບໂຕໃນສັດທາ — ເປັນພາສາລາວ.
 
-- **[Sermons](sermons.md)**
-- **[Bible Studies](studies.md)**
-- **[Books](books.md)** — including Lao Bible Stories and health/wellness books
+- **[ຄຳເທດສະໜາ](sermons.md)**
+- **[ການສຶກສາຄຳພີໄບເບິນ](studies.md)**
+- **[ປຶ້ມ](books.md)** — ລວມທັງເລື່ອງລາວຄຳພີໄບເບິນພາສາລາວ ແລະ ປຶ້ມສຸຂະພາບ/ສະຫວັດດີການ
 
-Most written material is available for offline reading in the
-**[LaoChristian.org app](https://apps.laochristian.org/)**, under **Christian Resources**.
+ເອກະສານທີ່ຂຽນໄວ້ສ່ວນໃຫຍ່ສາມາດອ່ານໄດ້ແບບອອບໄລນ໌ໃນແອັບ **[LaoChristian.org](https://apps.laochristian.org/)**, ພາຍໃຕ້ **ຊັບພະຍາກອນຄຣິສຕຽນ**.

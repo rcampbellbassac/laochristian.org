@@ -1,14 +1,13 @@
 ---
 hero_image: audio
 ---
-# Audio
+# ສຽງ
 
-Spoken-word recordings — sermons, readings, and music — in Lao.
+ບັນທຶກສຽງເວົ້າ — ຄຳເທດສະໜາ, ການອ່ານ, ແລະ ດົນຕີ — ເປັນພາສາລາວ.
 
-- **[Sieng Khaen Lao](songs.md)** and its **[YouTube channel](https://www.youtube.com/@SiengKhaenLaoGospel)** for music
-- **[Lao Holland SDA Church on YouTube](https://www.youtube.com/@LaoHollandSDAChurch)** for recorded services
+- **[ສຽງແຄນລາວ](songs.md)** ແລະ **[ຊ່ອງ YouTube](https://www.youtube.com/@SiengKhaenLaoGospel)** ສຳລັບເພງ
+- **[ໂບດ Lao Holland SDA ໃນ YouTube](https://www.youtube.com/@LaoHollandSDAChurch)** ສຳລັບການນະມັດສະການທີ່ບັນທຶກໄວ້
 
 <!-- TODO: add a podcast/audio-only feed here once one exists -->
 
-We're expanding this section over time. If there's an audio resource you'd
-like to see here, tell us on the [Contact page](../contact.md).
+ພວກເຮົາກຳລັງຂະຫຍາຍພາກນີ້ອອກໄປເລື້ອຍໆ. ຖ້າມີແຫຼ່ງຂໍ້ມູນສຽງທີ່ທ່ານຕ້ອງການເບິ່ງຢູ່ທີ່ນີ້, ໃຫ້ບອກພວກເຮົາໃນ [ໜ້າຕິດຕໍ່](../contact.md).

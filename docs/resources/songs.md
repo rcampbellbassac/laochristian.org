@@ -1,18 +1,17 @@
 ---
 hero_image: worship
 ---
-# Sieng Khaen Lao
+# ສຽງແຄນລາວ
 
-ສຽງແຄນລາວ — the sound of the Lao khaen, carrying hymns and gospel songs to Lao
-Christian communities around the world.
+ສຽງແຄນລາວ — ສຽງແຄນລາວ, ຮ້ອງເພງສັນລະເສີນ ແລະເພງພຣະກິດຕິຄຸນເປັນພາສາລາວ
+ຊຸມຊົນຄຣິສຕຽນທົ່ວໂລກ.
 
-Sieng Khaen Lao is our music ministry: hymns and gospel songs performed and
-recorded in Lao, shared freely for personal worship, church use, and anyone
-who wants to sing along.
+ສຽງແຄນລາວແມ່ນກະຊວງດົນຕີຂອງພວກເຮົາ: ເພງສວດ ແລະ ເພງພຣະກິດຕິຄຸນທີ່ສະແດງ ແລະ
+ບັນທຶກເປັນພາສາລາວ, ແບ່ງປັນໂດຍບໍ່ເສຍຄ່າສຳລັບການນະມັດສະການສ່ວນຕົວ, ການນຳໃຊ້ໃນໂບດ, ແລະ ທຸກຄົນ
+ທີ່ຕ້ອງການຮ້ອງຕາມ.
 
-- **[Watch on YouTube](https://www.youtube.com/@SiengKhaenLaoGospel)**
-- **[Follow on TikTok](https://www.tiktok.com/@siengkhaenlaogospel)**
-- **[Follow on Instagram](https://www.instagram.com/sklgospel)**
+- **[ເບິ່ງໃນ YouTube](https://www.youtube.com/@SiengKhaenLaoGospel)**
+- **[ຕິດຕາມໃນ TikTok](https://www.tiktok.com/@siengkhaenlaogospel)**
+- **[ຕິດຕາມໃນ Instagram](https://www.instagram.com/sklgospel)**
 
-Song lyrics and sheet music (where available) can also be found in the
-**[LaoChristian.org app](https://apps.laochristian.org/)** under **Lao Songs**.
+ເນື້ອເພງ ແລະ ເອກະສານເພງ (ຖ້າມີ) ຍັງສາມາດພົບໄດ້ໃນແອັບ **[LaoChristian.org](https://apps.laochristian.org/)** ພາຍໃຕ້ **ເພງລາວ**.

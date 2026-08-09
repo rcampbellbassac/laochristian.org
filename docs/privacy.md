@@ -1,53 +1,45 @@
 ---
 hero_image: privacy
 ---
-# Privacy Policy
+# ນະໂຍບາຍຄວາມເປັນສ່ວນຕົວ
 
-## Legal Basis for Processing Personal Data (GDPR)
+## ພື້ນຖານທາງກົດໝາຍສຳລັບການປະມວນຜົນຂໍ້ມູນສ່ວນຕົວ (GDPR)
 
-We process personal data under the following legal bases:
+ພວກເຮົາປະມວນຜົນຂໍ້ມູນສ່ວນຕົວພາຍໃຕ້ພື້ນຖານທາງກົດໝາຍຕໍ່ໄປນີ້:
 
-- **Consent:** your consent to processing activities for specific purposes.
-- **Contractual Necessity:** processing necessary for the performance of a contract with you.
-- **Legal Obligation:** processing necessary to comply with the law.
-- **Legitimate Interests:** processing necessary for the purposes of our legitimate interests.
+- **ການຍິນຍອມ:** ການຍິນຍອມຂອງທ່ານຕໍ່ການດຳເນີນການກິດຈະກຳຕ່າງໆ ສຳລັບຈຸດປະສົງສະເພາະ.
+- **ຄວາມຈຳເປັນຕາມສັນຍາ:** ການດຳເນີນການທີ່ຈຳເປັນສຳລັບການປະຕິບັດສັນຍາກັບທ່ານ.
+- **ພັນທະທາງກົດໝາຍ:** ການດຳເນີນການທີ່ຈຳເປັນເພື່ອປະຕິບັດຕາມກົດໝາຍ.
+- **ຜົນປະໂຫຍດທີ່ຖືກຕ້ອງຕາມກົດໝາຍ:** ການດຳເນີນການທີ່ຈຳເປັນສຳລັບຈຸດປະສົງຂອງຜົນປະໂຫຍດທີ່ຖືກຕ້ອງຕາມກົດໝາຍຂອງພວກເຮົາ.
 
-## User Rights Under CCPA and GDPR
+## ສິດທິຂອງຜູ້ໃຊ້ພາຍໃຕ້ CCPA ແລະ GDPR
 
-You have the right to access, rectify, or erase your personal data, restrict
-processing, object to processing, and, if applicable, the right to data
-portability. Under the CCPA, you also have the right to opt out of the sale
-of your personal data.
+ທ່ານມີສິດທີ່ຈະເຂົ້າເຖິງ, ແກ້ໄຂ ຫຼື ລຶບຂໍ້ມູນສ່ວນຕົວຂອງທ່ານ, ຈຳກັດການປະມວນຜົນ, ຄັດຄ້ານການປະມວນຜົນ, ແລະ ຖ້າມີ, ສິດໃນການໂອນຍ້າຍຂໍ້ມູນ. ພາຍໃຕ້ CCPA, ທ່ານຍັງມີສິດທີ່ຈະເລືອກທີ່ຈະບໍ່ຂາຍຂໍ້ມູນສ່ວນຕົວຂອງທ່ານ.
 
-## Children's Privacy
+## ຄວາມເປັນສ່ວນຕົວຂອງເດັກ
 
-We do not knowingly collect personal data from children under 13 (or a
-higher age threshold where applicable). If you are a parent or guardian and
-believe your child has provided us with personal data, please
-[contact us](contact.md).
+ພວກເຮົາບໍ່ໄດ້ເກັບກຳຂໍ້ມູນສ່ວນຕົວຈາກເດັກອາຍຸຕ່ຳກວ່າ 13 ປີ (ຫຼື ເກນອາຍຸສູງກວ່າຖ້າມີ). ຖ້າທ່ານເປັນພໍ່ແມ່ ຫຼື ຜູ້ປົກຄອງ ແລະ
+ເຊື່ອວ່າລູກຂອງທ່ານໄດ້ໃຫ້ຂໍ້ມູນສ່ວນຕົວແກ່ພວກເຮົາ, ກະລຸນາ
+[ຕິດຕໍ່ພວກເຮົາ](contact.md).
 
-## Data Breach Notification
+## ແຈ້ງການການລະເມີດຂໍ້ມູນ
 
-In the event of a data breach, we will notify you and any applicable
-regulator when we are legally required to do so.
+ໃນກໍລະນີທີ່ມີການລະເມີດຂໍ້ມູນ, ພວກເຮົາຈະແຈ້ງໃຫ້ທ່ານ ແລະ ຜູ້ຄວບຄຸມທີ່ກ່ຽວຂ້ອງຊາບເມື່ອພວກເຮົາມີກົດໝາຍກຳນົດໃຫ້ເຮັດເຊັ່ນນັ້ນ.
 
-## International Data Transfers
+## ການໂອນຂໍ້ມູນລະຫວ່າງປະເທດ
 
-We transfer data internationally only in compliance with data protection
-laws, and we ensure adequate data protection in all cases of data transfer.
+ພວກເຮົາໂອນຂໍ້ມູນໄປຕ່າງປະເທດຕາມກົດໝາຍວ່າດ້ວຍການປົກປ້ອງຂໍ້ມູນເທົ່ານັ້ນ, ແລະ ພວກເຮົາຮັບປະກັນການປົກປ້ອງຂໍ້ມູນທີ່ພຽງພໍໃນທຸກໆກໍລະນີຂອງການໂອນຂໍ້ມູນ.
 
-## Cookie Policy
+## ນະໂຍບາຍຄຸກກີ້
 
-Our website uses cookies. For more information, please visit our
-[Cookie Policy](cookies.md).
+ເວັບໄຊທ໌ຂອງພວກເຮົາໃຊ້ຄຸກກີ້. ສຳລັບຂໍ້ມູນເພີ່ມເຕີມ, ກະລຸນາເຂົ້າເບິ່ງທີ່
+[ນະໂຍບາຍຄຸກກີ້](cookies.md) ຂອງພວກເຮົາ.
 
-## Changes to This Privacy Policy
+## ການປ່ຽນແປງນະໂຍບາຍຄວາມເປັນສ່ວນຕົວນີ້
 
-We review and update this policy regularly. The latest version will always
-be posted on our website.
+ພວກເຮົາທົບທວນ ແລະ ອັບເດດນະໂຍບາຍນີ້ເປັນປະຈຳ. ສະບັບລ່າສຸດຈະຖືກໂພສລົງໃນເວັບໄຊທ໌ຂອງພວກເຮົາສະເໝີ.
 
-## Contact Us
+## ຕິດຕໍ່ພວກເຮົາ
 
-For any questions or concerns about this Privacy Policy or our data
-practices, contact us at
+ສຳລັບຄຳຖາມ ຫຼື ຂໍ້ກັງວົນກ່ຽວກັບນະໂຍບາຍຄວາມເປັນສ່ວນຕົວນີ້ ຫຼື ການປະຕິບັດຂໍ້ມູນຂອງພວກເຮົາ, ກະລຸນາຕິດຕໍ່ພວກເຮົາໄດ້ທີ່
 [laohollandsda@gmail.com](mailto:laohollandsda@gmail.com).

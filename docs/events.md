@@ -1,7 +1,7 @@
 ---
 hero_image: events
 ---
-# Events
+# ກິດຈະກຳ
 
 <!-- TODO: replace with real upcoming events. Suggested format for editors —
      just add a new "###" entry above the others, most recent first:
@@ -12,21 +12,19 @@ hero_image: events
 [Short description, time, and location or online link.]
 -->
 
-## Upcoming
+## ກຳລັງຈະມາເຖິງ
 
-We're working on bringing event updates to this page. For now, the
-[Lao Holland SDA Church Facebook page](https://www.facebook.com/lao.holland.sda.church)
-is the authoritative and most reliable source for event announcements and
-schedule updates.
+ພວກເຮົາກຳລັງເຮັດວຽກເພື່ອນຳເອົາການອັບເດດເຫດການມາສູ່ໜ້ານີ້. ສຳລັບດຽວນີ້,
+[ໜ້າເຟສບຸກຂອງໂບດ Lao Holland SDA](https://www.facebook.com/lao.holland.sda.church)
+ແມ່ນແຫຼ່ງຂໍ້ມູນທີ່ໜ້າເຊື່ອຖື ແລະ ໜ້າເຊື່ອຖືທີ່ສຸດສຳລັບການປະກາດເຫດການ ແລະ ການອັບເດດຕາຕະລາງເວລາ.
 
-## Regular services
+## ການບໍລິການປົກກະຕິ
 
-Sabbath worship with the Lao Holland Seventh-day Adventist Church, every
-Saturday:
+ການນະມັດສະການວັນຊະບາໂຕກັບໂບດເຊເວັນເດແອດເວນຕິສ Lao Holland, ທຸກໆວັນເສົາ:
 
-- **Sabbath School / morning study:** 10:00–11:00 a.m. (Eastern Time)
-- **Main service:** 11:00 a.m.–12:30 p.m. (Eastern Time)
-- In person at 3984 N 168th Ave, Holland, MI 49424, or through our [YouTube livestreams](https://www.youtube.com/@LaoHollandSDAChurch/streams)
+- **ໂຮງຮຽນ Sabbath / ການສຶກສາຕອນເຊົ້າ:** 10:00–11:00 ໂມງເຊົ້າ (ເວລາຕາເວັນອອກ)
+- **ການບໍລິການຫຼັກ:** 11:00 ໂມງເຊົ້າ–12:30 ໂມງທ່ຽງ (ເວລາຕາເວັນອອກ)
+- ເຂົ້າຮ່ວມດ້ວຍຕົນເອງທີ່ 3984 N 168th Ave, Holland, MI 49424, ຫຼືຜ່ານ [ການຖ່າຍທອດສົດ YouTube](https://www.youtube.com/@LaoHollandSDAChurch/streams) ຂອງພວກເຮົາ
 
-Have a special event you'd like listed here? Reach out via the
-[Contact page](contact.md).
+ມີກິດຈະກຳພິເສດທີ່ທ່ານຕ້ອງການໃຫ້ລະບຸໄວ້ຢູ່ນີ້ບໍ? ຕິດຕໍ່ຜ່ານທາງ
+[ໜ້າຕິດຕໍ່](contact.md).

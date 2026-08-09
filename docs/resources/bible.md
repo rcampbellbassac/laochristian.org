@@ -1,19 +1,18 @@
 ---
 hero_image: hero
 ---
-# The Lao Bible
+# ຄຳພີໄບເບິນພາສາລາວ
 
-The full text of Scripture in Lao, free to read online or offline.
+ຂໍ້ຄວາມເຕັມຂອງພຣະຄຳພີເປັນພາສາລາວ, ອ່ານໄດ້ຟຣີທາງອອນລາຍ ຫຼື ອອບໄລນ໌.
 
-For the actual reading experience — searchable, works offline, adjustable
-text size — open the **[LaoChristian.org app](https://apps.laochristian.org/)** and choose
-**Lao Bible**.
+ສຳລັບປະສົບການການອ່ານຕົວຈິງ — ສາມາດຄົ້ນຫາໄດ້, ເຮັດວຽກແບບອອບໄລນ໌, ສາມາດປັບຂະໜາດຕົວໜັງສືໄດ້ — ເປີດແອັບ **[LaoChristian.org](https://apps.laochristian.org/)** ແລະເລືອກ
+**ຄຳພີໄບເບິນລາວ**.
 
 <!-- TODO: which translation(s)? worth naming here for credibility -->
 
-## Why it matters
+## ເປັນຫຍັງມັນຈຶ່ງສຳຄັນ
 
-Scripture in your own heart language changes how it lands. Our goal is to keep
-the Lao Bible free, easy to navigate, and usable even on a slow connection —
-so distance from a printed Bible or a church building is never the reason
-someone can't read it.
+ພຣະຄຳພີໃນພາສາຫົວໃຈຂອງເຈົ້າເອງປ່ຽນແປງວິທີທີ່ມັນລົງມາ. ເປົ້າໝາຍຂອງພວກເຮົາແມ່ນເພື່ອຮັກສາ
+ຄຳພີໄບເບິນພາສາລາວໃຫ້ຟຣີ, ງ່າຍຕໍ່ການນຳທາງ, ແລະ ສາມາດໃຊ້ໄດ້ເຖິງແມ່ນວ່າຈະມີການເຊື່ອມຕໍ່ທີ່ຊ້າກໍຕາມ —
+ສະນັ້ນໄລຍະຫ່າງຈາກຄຳພີໄບເບິນທີ່ພິມອອກມາ ຫຼື ອາຄານໂບດບໍ່ເຄີຍເປັນເຫດຜົນທີ່
+ຜູ້ໃດຜູ້ໜຶ່ງບໍ່ສາມາດອ່ານມັນໄດ້.

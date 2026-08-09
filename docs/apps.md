@@ -1,26 +1,22 @@
 ---
 hero_image: apps
 ---
-# Apps
+# ແອັບ
 
-The LaoChristian.org Apps platform brings Lao Christian reading, worship,
-study, and presentation resources together in one bilingual, installable web
-app. It is designed for comfortable Lao reading and dependable use on slower
-or intermittent connections.
+ແພລດຟອມແອັບ LaoChristian.org ນຳເອົາຊັບພະຍາກອນການອ່ານ, ການນະມັດສະການ, ການສຶກສາ ແລະ ການນຳສະເໜີຂອງຄຣິສຕຽນລາວມາລວມກັນໃນແອັບເວັບສອງພາສາທີ່ສາມາດຕິດຕັ້ງໄດ້. ມັນຖືກອອກແບບມາເພື່ອການອ່ານພາສາລາວທີ່ສະດວກສະບາຍ ແລະ ການນຳໃຊ້ທີ່ໜ້າເຊື່ອຖືໃນການເຊື່ອມຕໍ່ທີ່ຊ້າກວ່າ ຫຼື ບໍ່ຕໍ່ເນື່ອງ.
 
-**[Open the Apps platform →](https://apps.laochristian.org/)**
+**[ເປີດແພລດຟອມແອັບ →](https://apps.laochristian.org/)**
 
-[![The LaoChristian.org Apps platform home screen](assets/img/apps-platform-home.webp){ .lc-app-screenshot }](https://apps.laochristian.org/)
+[![ໜ້າຈໍຫຼັກຂອງແພລດຟອມແອັບ LaoChristian.org](assets/img/apps-platform-home.webp){ .lc-app-screenshot }](https://apps.laochristian.org/)
 
-## What you can use
+## ສິ່ງທີ່ທ່ານສາມາດໃຊ້
 
-- **The Lao Bible** for reading and study
-- **Sieng Khaen Lao worship songs**
-- **Bible studies, Bible stories, health resources, and Christian books**
-- **Search, adjustable text size, themes, and a choice of Lao reading fonts**
-- **Presentation and export tools** for sharing material with a group
+- **ຄຳພີໄບເບິນພາສາລາວ** ສຳລັບການອ່ານ ແລະ ການສຶກສາ
+- **ເພງນະມັດສະການສຽງແຄນລາວ**
+- **ການສຶກສາຄຳພີໄບເບິນ, ເລື່ອງລາວໃນຄຳພີໄບເບິນ, ຊັບພະຍາກອນສຸຂະພາບ, ແລະ ປຶ້ມຄຣິສຕຽນ**
+- **ຄົ້ນຫາ, ຂະໜາດຂໍ້ຄວາມທີ່ສາມາດປັບໄດ້, ຫົວຂໍ້, ແລະ ຕົວອັກສອນອ່ານພາສາລາວທີ່ເລືອກໄດ້**
+- **ເຄື່ອງມືນຳສະເໜີ ແລະ ສົ່ງອອກ** ສຳລັບການແບ່ງປັນເອກະສານກັບກຸ່ມ
 
-The platform is a Progressive Web App (PWA). You can add it to your home
-screen, and it caches downloaded content locally for offline-friendly reading.
-It also checks periodically for updated material while preserving cached
-content when a connection is unavailable.
+ແພລດຟອມດັ່ງກ່າວແມ່ນ Progressive Web App (PWA). ທ່ານສາມາດເພີ່ມມັນໃສ່ໜ້າຈໍຫຼັກຂອງທ່ານ, ແລະມັນຈະເກັບເນື້ອຫາທີ່ດາວໂຫຼດມາໄວ້ໃນເຄື່ອງເພື່ອການອ່ານແບບອອບໄລນ໌.
+ມັນຍັງກວດສອບເປັນໄລຍະເພື່ອຊອກຫາເນື້ອຫາທີ່ອັບເດດແລ້ວ ໃນຂະນະທີ່ຮັກສາເນື້ອຫາທີ່ເກັບໄວ້ໄວ້
+ເມື່ອການເຊື່ອມຕໍ່ບໍ່ສາມາດໃຊ້ໄດ້.

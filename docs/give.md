@@ -1,33 +1,26 @@
 ---
 hero_image: give
 ---
-# Give
+# ໃຫ້
 
-LaoChristian.org is a ministry of the Lao Holland Seventh-day Adventist
-Church, supported entirely by the generosity of people who believe in making
-Scripture and worship freely available in Lao.
+LaoChristian.org ເປັນກະຊວງຂອງໂບດເຊເວັນເດແອດເວນຕິສ Lao Holland, ເຊິ່ງໄດ້ຮັບການສະໜັບສະໜູນຢ່າງເຕັມທີ່ຈາກຄວາມເອື້ອເຟື້ອເຜື່ອແຜ່ຂອງຜູ້ທີ່ເຊື່ອໃນການເຮັດໃຫ້ພຣະຄຳພີ ແລະ ການນະມັດສະການມີໃຫ້ອ່ານໄດ້ຢ່າງເສລີໃນພາສາລາວ.
 
-## Online giving
+## ການໃຫ້ທາງອອນລາຍ
 
-For now, gifts for the Lao Holland ministry are received through our mother
-church, **Holland Seventh-day Adventist Church**, on the denomination's
-official AdventistGiving platform.
+ສຳລັບດຽວນີ້, ຂອງຂວັນສຳລັບກະຊວງ Lao Holland ແມ່ນໄດ້ຮັບຜ່ານໂບດແມ່ຂອງພວກເຮົາ, **ໂບດ Holland Seventh-day Adventist**, ໃນເວທີ AdventistGiving ຢ່າງເປັນທາງການຂອງນິກາຍ.
 
-1. Open the **[Holland SDA Church giving page](https://adventistgiving.org/donate/ANFFLQ)**.
-2. Designate your gift to the line item **LAO Combined Budget**.
+1. ເປີດໜ້າ **[ໜ້າບໍລິຈາກຂອງໂບດ Holland SDA](https://adventistgiving.org/donate/ANFFLQ)**.
+2. ກຳນົດຂອງຂວັນຂອງທ່ານໃຫ້ກັບລາຍການ **ງົບປະມານລວມຂອງ LAO**.
 
-Please do not use the **Lao Holland SDA Group** search result as a donation
-destination. That listing currently opens a church-enrollment request rather
-than a giving form.
+ກະລຸນາຢ່າໃຊ້ຜົນການຄົ້ນຫາ **Lao Holland SDA Group** ເປັນຈຸດໝາຍປາຍທາງການບໍລິຈາກ. ລາຍຊື່ດັ່ງກ່າວໃນປະຈຸບັນເປີດແບບຟອມຮ້ອງຂໍການລົງທະບຽນໂບດແທນທີ່ຈະເປັນແບບຟອມບໍລິຈາກ.
 
-If you need help directing a gift to the Lao ministry, email
-[laohollandsda@gmail.com](mailto:laohollandsda@gmail.com) before giving.
+ຖ້າທ່ານຕ້ອງການຄວາມຊ່ວຍເຫຼືອໃນການສົ່ງຂອງຂວັນໄປຍັງກະຊວງຂອງລາວ, ກະລຸນາສົ່ງອີເມວຫາ [laohollandsda@gmail.com](mailto:laohollandsda@gmail.com) ກ່ອນທີ່ຈະໃຫ້.
 
-## Other ways to give
+## ວິທີອື່ນໃນການໃຫ້
 
-Prefer to give in person? Contact us at
-[laohollandsda@gmail.com](mailto:laohollandsda@gmail.com), call
-[(616) 294-1171](tel:+16162941171), or visit us during
-[Sabbath worship](events.md).
+ຕ້ອງການໃຫ້ດ້ວຍຕົນເອງບໍ? ຕິດຕໍ່ພວກເຮົາໄດ້ທີ່
+[laohollandsda@gmail.com](mailto:laohollandsda@gmail.com), ໂທຫາ
+[(616) 294-1171](tel:+16162941171), ຫຼື ມາຢ້ຽມຢາມພວກເຮົາໃນລະຫວ່າງ
+[ການນະມັດສະການວັນຊະບາໂຕ](events.md).
 
-Thank you for supporting this ministry.
+ຂອບໃຈທີ່ສະໜັບສະໜູນກະຊວງນີ້.
