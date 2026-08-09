@@ -1,5 +1,6 @@
 ---
 hero_image: apps
+description: The LaoChristian.org Apps platform brings the Lao Bible, worship songs, Bible studies, and books into one installable, offline-friendly web app.
 ---
 # Apps
 

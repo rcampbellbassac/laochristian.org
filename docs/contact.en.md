@@ -1,5 +1,6 @@
 ---
 hero_image: contact
+description: Address, phone, email, and social links for the Lao Holland Seventh-day Adventist Church and LaoChristian.org.
 ---
 # Contact
 

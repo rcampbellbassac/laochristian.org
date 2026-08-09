@@ -1,5 +1,6 @@
 ---
 hero_image: worship
+description: Sieng Khaen Lao — Lao-language hymns and gospel songs shared freely for worship and personal devotion.
 ---
 # Sieng Khaen Lao
 

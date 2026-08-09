@@ -1,5 +1,6 @@
 ---
 hero_image: contact
+description: ທີ່ຢູ່, ໂທລະສັບ, ອີເມວ, ແລະ ລິ້ງໂຊຊຽວມີເດຍຂອງໂບດເຊເວັນເດແອດເວນຕິສ Lao Holland ແລະ LaoChristian.org.
 ---
 # ຕິດຕໍ່
 

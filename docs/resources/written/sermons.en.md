@@ -1,5 +1,6 @@
 ---
 hero_image: sermons
+description: Lao-language sermons, written and recorded, from the Lao Holland Seventh-day Adventist Church.
 ---
 # Sermons
 

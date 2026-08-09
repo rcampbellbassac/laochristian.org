@@ -1,5 +1,6 @@
 ---
 hero_image: give
+description: How to support the Lao Holland Seventh-day Adventist Church's Lao ministry through official AdventistGiving channels.
 ---
 # Give
 

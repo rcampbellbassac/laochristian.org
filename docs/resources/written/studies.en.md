@@ -1,5 +1,6 @@
 ---
 hero_image: studies
+description: Structured Bible studies in Lao for individual or group study, available offline in the LaoChristian.org app.
 ---
 # Bible Studies
 

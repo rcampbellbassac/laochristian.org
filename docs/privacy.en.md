@@ -1,5 +1,6 @@
 ---
 hero_image: privacy
+description: How LaoChristian.org collects, uses, and protects personal data, including your rights under GDPR and CCPA.
 ---
 # Privacy Policy
 

@@ -1,5 +1,6 @@
 ---
 hero_image: about
+description: LaoChristian.org ເປັນກະຊວງຂອງໂບດເຊເວັນເດແອດເວນຕິສ Lao Holland, ເຮັດໃຫ້ພຣະຄຳພີ ແລະ ຄຳສອນຄຣິສຕຽນມີໃຫ້ໃຊ້ຢ່າງເສລີໃນພາສາລາວ.
 ---
 # ກ່ຽວກັບ LaoChristian.org
 

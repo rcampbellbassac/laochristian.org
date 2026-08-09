@@ -1,5 +1,6 @@
 ---
 hero_image: events
+description: Sabbath worship times and upcoming events for the Lao Holland Seventh-day Adventist Church.
 ---
 # Events
 
