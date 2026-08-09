@@ -1,6 +1,6 @@
 ---
 hero_image: audio
-description: Spoken-word recordings in Lao — sermons, readings, and music from Sieng Khaen Lao and Lao Holland SDA Church.
+description: "Spoken-word recordings in Lao — sermons, readings, and music from Sieng Khaen Lao and Lao Holland SDA Church."
 ---
 # Audio
 

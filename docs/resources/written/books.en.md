@@ -1,6 +1,6 @@
 ---
 hero_image: books
-description: A growing library of Lao-language books, including Bible story collections and Adventist health titles.
+description: "A growing library of Lao-language books, including Bible story collections and Adventist health titles."
 ---
 # Books
 

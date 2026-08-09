@@ -1,6 +1,6 @@
 ---
 hero_image: resources-hub
-description: Free Lao-language Christian resources: the Bible, worship music, sermons, Bible studies, books, and audio.
+description: "Free Lao-language Christian resources: the Bible, worship music, sermons, Bible studies, books, and audio."
 ---
 # Resources
 

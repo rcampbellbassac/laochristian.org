@@ -1,6 +1,6 @@
 ---
 hero_image: give
-description: ວິທີສະໜັບສະໜູນກະຊວງລາວຂອງໂບດເຊເວັນເດແອດເວນຕິສ Lao Holland ຜ່ານຊ່ອງທາງ AdventistGiving ຢ່າງເປັນທາງການ.
+description: "ວິທີສະໜັບສະໜູນກະຊວງລາວຂອງໂບດເຊເວັນເດແອດເວນຕິສ Lao Holland ຜ່ານຊ່ອງທາງ AdventistGiving ຢ່າງເປັນທາງການ."
 ---
 # ໃຫ້
 

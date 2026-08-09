@@ -1,6 +1,6 @@
 ---
 hero_image: hero
-description: Read the full text of Scripture in Lao, free online or offline through the LaoChristian.org app.
+description: "Read the full text of Scripture in Lao, free online or offline through the LaoChristian.org app."
 ---
 # The Lao Bible
 

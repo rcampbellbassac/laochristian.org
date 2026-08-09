@@ -1,6 +1,6 @@
 ---
 hero_image: study
-description: Sermons, Bible studies, and books in Lao for growing in faith, most available offline in the LaoChristian.org app.
+description: "Sermons, Bible studies, and books in Lao for growing in faith, most available offline in the LaoChristian.org app."
 ---
 # Written Resources
 

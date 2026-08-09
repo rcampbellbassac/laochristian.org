@@ -1,6 +1,6 @@
 ---
 hero_image: cookies
-description: How LaoChristian.org uses cookies to remember preferences like light/dark mode and your Lao font choice.
+description: "How LaoChristian.org uses cookies to remember preferences like light/dark mode and your Lao font choice."
 ---
 # Cookie Policy
 

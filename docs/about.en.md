@@ -1,6 +1,6 @@
 ---
 hero_image: about
-description: A ministry of the Lao Holland Seventh-day Adventist Church, making Scripture and Christian teaching freely available in Lao.
+description: "A ministry of the Lao Holland Seventh-day Adventist Church, making Scripture and Christian teaching freely available in Lao."
 ---
 # About LaoChristian.org
 

@@ -1,6 +1,6 @@
 ---
 hero_image: live
-description: Watch Lao Holland Seventh-day Adventist Church's Sabbath worship livestream every Saturday, plus past services on YouTube.
+description: "Watch Lao Holland Seventh-day Adventist Church's Sabbath worship livestream every Saturday, plus past services on YouTube."
 ---
 # Live
 
