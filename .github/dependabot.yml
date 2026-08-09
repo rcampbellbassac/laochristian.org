@@ -1,0 +1,19 @@
+version: 2
+updates:
+  # Site build dependencies (mkdocs, mkdocs-material, plugins).
+  - package-ecosystem: "pip"
+    directory: "/"
+    schedule:
+      interval: "weekly"
+
+  # Content-generation tooling (not part of the deployed site).
+  - package-ecosystem: "pip"
+    directory: "/scripts"
+    schedule:
+      interval: "weekly"
+
+  # Pinned actions in .github/workflows/deploy-pages.yml.
+  - package-ecosystem: "github-actions"
+    directory: "/"
+    schedule:
+      interval: "weekly"
