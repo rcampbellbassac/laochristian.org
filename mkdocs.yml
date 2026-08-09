@@ -45,11 +45,8 @@ plugins:
   - i18n:
       docs_structure: suffix
       languages:
-        - locale: en
-          default: true
-          name: English
-          build: true
         - locale: lo
+          default: true
           name: ລາວ
           build: true
           site_description: ພຣະຄຳພີ, ການນະມັດສະການ, ແລະ ຊັບພະຍາກອນຄຣິສຕຽນສຳລັບຊຸມຊົນລາວທຸກແຫ່ງ.
@@ -71,6 +68,9 @@ plugins:
             Contact: ຕິດຕໍ່
             Privacy: ຄວາມເປັນສ່ວນຕົວ
             Cookies: ຄຸກກີ
+        - locale: en
+          name: English
+          build: true
   - git-revision-date-localized:
       enable_creation_date: false
   - minify:

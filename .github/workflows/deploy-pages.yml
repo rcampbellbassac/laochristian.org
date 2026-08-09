@@ -41,8 +41,8 @@ jobs:
       - name: Build
         run: |
           mkdocs build --strict --site-dir _site
-          cp _site/sitemap.xml _site/lo/sitemap.xml
-          cp _site/sitemap.xml.gz _site/lo/sitemap.xml.gz
+          cp _site/sitemap.xml _site/en/sitemap.xml
+          cp _site/sitemap.xml.gz _site/en/sitemap.xml.gz
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
