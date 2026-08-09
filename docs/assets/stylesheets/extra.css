@@ -160,18 +160,18 @@ li:lang(lo) {
   border-radius: 12px;
 }
 
-/* Light/dark image swap -- generalizes the header-logo toggle. Used both by
-   the full-width page hero below and anywhere else a raster image needs to
-   swap with the color scheme. */
-img.lc-scheme-dark {
+/* Light/dark swap for the full-width page hero below. Elements, not tag-
+   qualified (unlike the header-logo toggle), because the hero variants are
+   background-image divs rather than <img> tags -- see .lc-page-hero. */
+.lc-scheme-dark {
   display: none !important;
 }
 
-[data-md-color-scheme="slate"] img.lc-scheme-light {
+[data-md-color-scheme="slate"] .lc-scheme-light {
   display: none !important;
 }
 
-[data-md-color-scheme="slate"] img.lc-scheme-dark {
+[data-md-color-scheme="slate"] .lc-scheme-dark {
   display: block !important;
 }
 
@@ -193,12 +193,13 @@ img.lc-scheme-dark {
   border-bottom-color: color-mix(in srgb, var(--lc-paper), transparent 88%);
 }
 
-.lc-page-hero img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  object-position: center bottom;
-  border-radius: 0;
+.lc-page-hero .lc-scheme-light,
+.lc-page-hero .lc-scheme-dark {
+  position: absolute;
+  inset: 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center bottom;
 }
 
 /* ---- Paper grain (procedural SVG noise, not a generated image: seamless

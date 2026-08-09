@@ -21,9 +21,17 @@
 {% block tabs %}
   {{ super() }}
   {% if page.meta and page.meta.hero_image %}
-    <div class="lc-page-hero">
-      <img class="lc-scheme-light" src="{{ ('assets/img/' ~ page.meta.hero_image ~ '-light.webp') | url }}" alt="">
-      <img class="lc-scheme-dark" src="{{ ('assets/img/' ~ page.meta.hero_image ~ '-dark.webp') | url }}" alt="">
+    {#-
+      Background-image divs, not <img src>, on purpose: the browser's HTML
+      preloader fetches <img src> unconditionally regardless of computed
+      display:none, so both light/dark variants used to download on every
+      page load. A CSS background-image is only fetched once its selector
+      actually matches, so gating it on the same [data-md-color-scheme]
+      attribute used for visibility below halves hero-image payload.
+    -#}
+    <div class="lc-page-hero" aria-hidden="true">
+      <div class="lc-scheme-light" style="background-image:url('{{ ('assets/img/' ~ page.meta.hero_image ~ '-light.webp') | url }}');"></div>
+      <div class="lc-scheme-dark" style="background-image:url('{{ ('assets/img/' ~ page.meta.hero_image ~ '-dark.webp') | url }}');"></div>
     </div>
   {% endif %}
 {% endblock %}
