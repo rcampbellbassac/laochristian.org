@@ -41,7 +41,7 @@ LaoChristian.org ເປັນກະຊວງຂອງ **ໂບດເຊເວັ
 - **ການບໍລິການຫຼັກ:** 11:00 ໂມງເຊົ້າ–12:30 ໂມງທ່ຽງ (ເວລາຕາເວັນອອກ)
 - ທຸກໆວັນເສົາ, ດ້ວຍຕົນເອງ ຫຼື ຜ່ານ [ການຖ່າຍທອດສົດ YouTube](https://www.youtube.com/@LaoHollandSDAChurch/streams) ຂອງພວກເຮົາ
 
-<div class="lc-adventist-slot" style="justify-content:flex-start;"><img src="/assets/img/adventist-symbol.svg" alt="ໂບດເຊເວັນເດແອດເວນຕິສ"></div>
+<div class="lc-adventist-slot" style="justify-content:flex-start;"><img src="/assets/img/adventist-symbol.svg" alt="ໂບດເຊເວັນເດແອດເວນຕິສ" loading="lazy"></div>
 
 ## ຕິດຕໍ່ພວກເຮົາ
 

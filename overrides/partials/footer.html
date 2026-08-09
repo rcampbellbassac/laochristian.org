@@ -12,12 +12,12 @@
           <div class="lc-footer-brand">
             <!-- Footer background is always the dark ink color (both site
                  color schemes), so it always wants the light/white mark. -->
-            <img src="{{ 'assets/img/mark-dark.png' | url }}" alt="">
+            <img src="{{ 'assets/img/mark-dark.png' | url }}" alt="" loading="lazy">
             <span lang="lo">ລາວຄຣິສຕຽນ</span>
             <span>· LaoChristian.org</span>
           </div>
           <div class="lc-adventist-slot" style="justify-content:flex-start; margin-top:1rem;">
-            <img src="{{ 'assets/img/adventist-symbol.svg' | url }}" alt="{{ 'ຄຣິສຕະຈັກເຊເວັນເດແອດເວນຕິສ' if lc_is_lao else 'Seventh-day Adventist Church' }}">
+            <img src="{{ 'assets/img/adventist-symbol.svg' | url }}" alt="{{ 'ຄຣິສຕະຈັກເຊເວັນເດແອດເວນຕິສ' if lc_is_lao else 'Seventh-day Adventist Church' }}" loading="lazy">
             <span style="margin-left:0.6rem; font-size:0.8rem; opacity:0.85;">{{ 'ການຮັບໃຊ້ຂອງຄຣິສຕະຈັກເຊເວັນເດແອດເວນຕິສລາວຮອນແລນ' if lc_is_lao else 'A ministry of the Lao Holland Seventh-day Adventist Church' }}</span>
           </div>
         </div>

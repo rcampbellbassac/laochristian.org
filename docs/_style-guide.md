@@ -52,6 +52,6 @@ hero_image: give
 
 <span class="lc-chip-gold">ໃໝ່</span></div>
 
-<div class="lc-adventist-slot" style="justify-content:flex-start; max-width:22rem; margin-top:1rem;"><img src="/assets/img/adventist-symbol.svg" alt="ໂບດເຊເວັນເດແອດເວນຕິສ"> <span style="margin-left:0.6rem;">ສັນຍະລັກທາງການ, ໃຊ້ໂດຍບໍ່ໄດ້ດັດແປງຕາມຄຳແນະນຳຂອງຍີ່ຫໍ້ NAD</span></div>
+<div class="lc-adventist-slot" style="justify-content:flex-start; max-width:22rem; margin-top:1rem;"><img src="/assets/img/adventist-symbol.svg" alt="ໂບດເຊເວັນເດແອດເວນຕິສ" loading="lazy"> <span style="margin-left:0.6rem;">ສັນຍະລັກທາງການ, ໃຊ້ໂດຍບໍ່ໄດ້ດັດແປງຕາມຄຳແນະນຳຂອງຍີ່ຫໍ້ NAD</span></div>
 
 ສະຫຼັບໂໝດສະຫວ່າງ/ມືດ (ເບື້ອງຂວາເທິງ) ແລະສະຫຼັບພາສາ (ໄອຄອນ 🌐) ເພື່ອກວດສອບທັງສອງຮຸ່ນ.

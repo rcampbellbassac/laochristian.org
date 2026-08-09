@@ -54,7 +54,7 @@ Join us for Sabbath worship, in person or online:
 - Every Saturday, in person or through our [YouTube livestreams](https://www.youtube.com/@LaoHollandSDAChurch/streams)
 
 <div class="lc-adventist-slot" style="justify-content:flex-start;">
-<img src="/assets/img/adventist-symbol.svg" alt="Seventh-day Adventist Church">
+<img src="/assets/img/adventist-symbol.svg" alt="Seventh-day Adventist Church" loading="lazy">
 </div>
 
 ## Get in touch

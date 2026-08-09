@@ -67,7 +67,7 @@ Card component — 15px radius, 1px border, minimal shadow, lifts slightly on ho
 </div>
 
 <div class="lc-adventist-slot" style="justify-content:flex-start; max-width:22rem; margin-top:1rem;">
-<img src="/assets/img/adventist-symbol.svg" alt="Seventh-day Adventist Church">
+<img src="/assets/img/adventist-symbol.svg" alt="Seventh-day Adventist Church" loading="lazy">
 <span style="margin-left:0.6rem;">Official symbol, used unmodified per NAD brand guidelines</span>
 </div>
 
