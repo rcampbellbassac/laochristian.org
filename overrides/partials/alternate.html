@@ -10,6 +10,7 @@
         lang="{{ alt.lang }}"
         aria-label="{{ 'Switch to English' if alt.lang == 'en' else 'ປ່ຽນເປັນພາສາລາວ' }}"
         title="{{ 'Switch to English' if alt.lang == 'en' else 'ປ່ຽນເປັນພາສາລາວ' }}"
+        onclick="try { localStorage.setItem('lc_lang', '{{ alt.lang }}'); } catch (e) {}"
       >
         {% if alt.lang == "en" %}
           <svg class="lc-language-switch__flag" viewBox="0 0 38 24" role="img" aria-hidden="true">

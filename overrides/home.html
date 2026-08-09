@@ -2,6 +2,37 @@
 
 {% block container %}{% endblock %}
 
+{#-
+  Remember a visitor's language choice. New visitors (no stored preference)
+  land on whichever homepage they requested -- Lao at / by default -- with
+  no redirect at all. Returning visitors who previously used the language
+  switcher (overrides/partials/alternate.html, which stores their pick in
+  localStorage) get bounced to their preferred homepage automatically.
+  Scoped to the homepage only, so deep links to a specific page in a
+  specific language are never hijacked. Inline + synchronous in <head> so
+  it runs before paint, avoiding a flash of the wrong-language homepage.
+-#}
+{% block extrahead %}
+  {{ super() }}
+  <script>
+    (function () {
+      var CURRENT_LANG = {{ page.file.locale | tojson }};
+      var ALTERNATES = {{ (config.extra.alternate or []) | tojson }};
+      try {
+        var preferred = localStorage.getItem("lc_lang");
+        if (preferred && preferred !== CURRENT_LANG) {
+          for (var i = 0; i < ALTERNATES.length; i++) {
+            if (ALTERNATES[i].lang === preferred) {
+              location.replace(ALTERNATES[i].link);
+              break;
+            }
+          }
+        }
+      } catch (e) {}
+    })();
+  </script>
+{% endblock %}
+
 {% block htmltitle %}
   <title>{{ config.site_name }} — {{ config.site_description }}</title>
 {% endblock %}
