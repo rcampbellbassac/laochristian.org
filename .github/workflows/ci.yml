@@ -1,0 +1,33 @@
+name: CI
+
+# Runs on every push and pull request so branch protection has a status
+# check to require before merging. Separate from deploy-pages.yml, which
+# only runs on pushes to main and actually publishes the site -- this one
+# never deploys, it just verifies the site still builds cleanly.
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v7
+        with:
+          fetch-depth: 0 # full history so git-revision-date-localized can read real dates
+
+      - name: Setup Python
+        uses: actions/setup-python@v7
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Build (strict)
+        run: mkdocs build --strict --site-dir _site_ci_check
