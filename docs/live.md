@@ -9,7 +9,11 @@ description: ຊົມການຖ່າຍທອດສົດການນະມ�
 - **ໂຮງຮຽນ Sabbath / ການສຶກສາຕອນເຊົ້າ:** 10:00–11:00 ໂມງເຊົ້າ (ເວລາຕາເວັນອອກ)
 - **ການບໍລິການຫຼັກ:** 11:00 ໂມງເຊົ້າ – 12:30 ໂມງທ່ຽງ (ເວລາຕາເວັນອອກ)
 
-**ເບິ່ງການຖ່າຍທອດສົດທັງໝົດ:** [ການຖ່າຍທອດສົດຂອງໂບດ Lao Holland SDA ໃນ YouTube](https://www.youtube.com/@LaoHollandSDAChurch/streams)
+<img class="lc-content-photo" src="/assets/img/live-welcome-slide.webp" alt="ສະໄລ້ຕ້ອນຮັບທີ່ສະແດງໃນຕອນເລີ່ມຕົ້ນການຖ່າຍທອດສົດວັນຊະບາໂຕຂອງໂບດ Lao Holland SDA" loading="lazy">
+
+<div class="lc-hero-actions">
+<a class="lc-btn lc-btn-primary" href="https://www.youtube.com/@LaoHollandSDAChurch/streams">ເບິ່ງການຖ່າຍທອດສົດທັງໝົດ →</a>
+</div>
 
 ບໍ່ສາມາດຮັບຊົມສົດໄດ້ບໍ? ການບໍລິການທີ່ຜ່ານມາມີຢູ່ໃນຊ່ອງ YouTube ດຽວກັນນີ້
 [ຊ່ອງ YouTube ຂອງໂບດ Lao Holland SDA](https://www.youtube.com/@LaoHollandSDAChurch), ແລະເພງ
