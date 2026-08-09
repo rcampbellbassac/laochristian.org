@@ -41,6 +41,8 @@ moving here, making LaoChristian.org the new home for those resources.
 
 ## Our church
 
+<img class="lc-content-photo" src="/assets/img/lao-holland-church.webp" alt="The Lao Holland Seventh-day Adventist Church building, with a family walking across the front lawn" loading="lazy">
+
 LaoChristian.org is a ministry of the **Lao Holland Seventh-day Adventist
 Church** in Holland, Michigan — a congregation serving Lao, Thai, Hmong,
 Khmer, and English-speaking communities. We worship God in Spirit and truth,
