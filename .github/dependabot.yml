@@ -1,14 +1,15 @@
 version: 2
 updates:
-  # Site build dependencies (mkdocs, mkdocs-material, plugins).
+  # Site build dependencies (mkdocs, mkdocs-material, plugins) and
+  # content-generation tooling (scripts/, not part of the deployed site).
+  # One entry with `directories` (not two separate `directory` entries) --
+  # Dependabot's pip ecosystem discovers requirements files repo-wide
+  # rather than strictly scoping to each `directory`, so two entries here
+  # produced duplicate PRs for the same scripts/requirements.txt bump.
   - package-ecosystem: "pip"
-    directory: "/"
-    schedule:
-      interval: "weekly"
-
-  # Content-generation tooling (not part of the deployed site).
-  - package-ecosystem: "pip"
-    directory: "/scripts"
+    directories:
+      - "/"
+      - "/scripts"
     schedule:
       interval: "weekly"
 
