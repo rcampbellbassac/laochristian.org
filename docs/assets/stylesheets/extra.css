@@ -444,6 +444,11 @@ html[data-lao-font] .md-typeset h3 {
   align-items: center;
   gap: 0.4rem;
   margin-inline: 0.2rem;
+  /* Flex items default to min-width:auto, refusing to shrink below their
+     content's intrinsic size -- without this, the header (a flex row) was
+     never allowed to shrink this picker below its content width either,
+     one layer up from the bug fixed below. */
+  min-width: 0;
 }
 
 .lc-font-picker select {
@@ -454,6 +459,14 @@ html[data-lao-font] .md-typeset h3 {
   border: 1px solid color-mix(in srgb, currentColor, transparent 60%);
   border-radius: 4px;
   padding: 0.2rem 0.3rem;
+  /* The real fix: a <select> flex item's default min-width:auto resolves to
+     its longest <option>'s natural width ("Noto Sans Lao Looped (default)"),
+     which silently overrides max-width above since flex children refuse to
+     shrink below their intrinsic content minimum unless told otherwise.
+     That let this element quietly push the whole header ~70px past the
+     viewport on narrow phones -- invisible at 1x zoom (html has
+     overflow-x:hidden) but revealed as extra pannable space on pinch-zoom. */
+  min-width: 0;
 }
 
 .lc-font-picker select option {
@@ -934,3 +947,4 @@ html[data-lao-font] .md-typeset h3 {
     justify-content: flex-start;
   }
 }
+
