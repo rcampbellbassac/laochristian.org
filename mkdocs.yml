@@ -75,6 +75,13 @@ plugins:
       enable_creation_date: false
   - minify:
       minify_html: true
+      minify_css: true
+      minify_js: true
+      css_files:
+        - assets/stylesheets/extra.css
+      js_files:
+        - assets/javascripts/lao-font-picker.js
+        - assets/javascripts/cookie-consent.js
 
 markdown_extensions:
   - admonition
