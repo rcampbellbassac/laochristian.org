@@ -1,0 +1,24 @@
+{#-
+  Official Sabbath School (Adventech / General Conference) call-out.
+  External links only; graphics are the publisher's own, used unmodified.
+  Markup is mirrored in docs/apps.md and docs/apps.en.md -- keep in sync.
+-#}
+{% set lc_is_lao = page.file.locale == "lo" %}
+<section class="lc-section lc-sabbath-school">
+  <div class="lc-section-inner">
+    <div class="lc-ss-card">
+      <img class="lc-ss-logo" src="{{ 'assets/img/sabbath-school/sabbath-school-pm-logo.png' | url }}" alt="Sabbath School" width="96" height="96" loading="lazy">
+      <div class="lc-ss-body">
+        <p class="lc-eyebrow">{{ "ທາງການ ຈາກສະພາໃຫຍ່" if lc_is_lao else "Official · General Conference" }}</p>
+        <h2>{{ "ໂຮງຮຽນວັນຊະບາໂຕ (Sabbath School) ເປັນພາສາລາວ" if lc_is_lao else "Sabbath School in Lao" }}</h2>
+        <p>{{ "ສຶກສາບົດຮຽນໂຮງຮຽນວັນຊະບາໂຕປະຈຳອາທິດເປັນພາສາລາວ ດ້ວຍແອັບທາງການຂອງສະພາໃຫຍ່ຄຣິສຕະຈັກແອດເວນຕິສ." if lc_is_lao else "Study the weekly Sabbath School lesson in Lao with the official app of the General Conference of Seventh-day Adventists." }}</p>
+        <div class="lc-ss-badges">
+          <a href="https://play.google.com/store/apps/details?id=com.cryart.sabbathschool" rel="noopener" target="_blank"><img src="{{ 'assets/img/sabbath-school/adventech-ss-play-store.png' | url }}" alt="Get Sabbath School on Google Play" width="193" height="57" loading="lazy"></a>
+          <a href="https://itunes.apple.com/us/app/sabbath-school/id895272167?mt=8" rel="noopener" target="_blank"><img src="{{ 'assets/img/sabbath-school/adventech-ss-app-store.png' | url }}" alt="Download Sabbath School on the App Store" width="200" height="57" loading="lazy"></a>
+          <a href="https://sabbath-school.adventech.io/lo" rel="noopener" target="_blank"><img src="{{ 'assets/img/sabbath-school/adventech-ss-web.png' | url }}" alt="Open Sabbath School on the web (Lao)" width="193" height="57" loading="lazy"></a>
+        </div>
+        <p class="lc-ss-credit">{{ "ໂຮງຮຽນວັນຊະບາໂຕ ສ້າງ ແລະ ດູແລໂດຍ" if lc_is_lao else "Sabbath School is created and maintained by" }} <a href="https://adventech.io/sabbath-school/" rel="noopener" target="_blank">Adventech</a> {{ "ໂດຍຮ່ວມມືກັບກົມໂຮງຮຽນວັນຊະບາໂຕ ແລະ ການປະກາດສ່ວນຕົວຂອງສະພາໃຫຍ່ຄຣິສຕະຈັກແອດເວນຕິສ. ເປັນເວັບໄຊພາຍນອກ; LaoChristian.org ບໍ່ໄດ້ເປັນເຈົ້າຂອງ ຫຼື ດຳເນີນງານ. App Store ເປັນເຄື່ອງໝາຍບໍລິການຂອງ Apple Inc.; Google Play ເປັນເຄື່ອງໝາຍການຄ້າຂອງ Google LLC." if lc_is_lao else "in partnership with the General Conference Sabbath School and Personal Ministries Department. This is an external site; LaoChristian.org does not own or operate it. App Store is a service mark of Apple Inc.; Google Play is a trademark of Google LLC." }}</p>
+      </div>
+    </div>
+  </div>
+</section>
