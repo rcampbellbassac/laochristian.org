@@ -2,14 +2,12 @@ version: 2
 updates:
   # Site build dependencies (mkdocs, mkdocs-material, plugins) and
   # content-generation tooling (scripts/, not part of the deployed site).
-  # One entry with `directories` (not two separate `directory` entries) --
-  # Dependabot's pip ecosystem discovers requirements files repo-wide
-  # rather than strictly scoping to each `directory`, so two entries here
-  # produced duplicate PRs for the same scripts/requirements.txt bump.
+  # Only "/" is listed: Dependabot's pip ecosystem discovers requirements
+  # files repo-wide from "/", so it already picks up scripts/requirements.txt.
+  # Listing "/scripts" as well (as a second entry or in `directories`)
+  # produces duplicate PRs for every scripts/requirements.txt bump.
   - package-ecosystem: "pip"
-    directories:
-      - "/"
-      - "/scripts"
+    directory: "/"
     schedule:
       interval: "weekly"
 
